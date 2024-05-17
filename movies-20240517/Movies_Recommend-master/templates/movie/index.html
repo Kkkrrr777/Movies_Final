@@ -1,0 +1,215 @@
+{% extends "movie/base.html" %} {% block content %}
+<style>
+  .carousel-caption {
+    text-align: left;
+    padding-top: 40px;
+  }
+</style>
+<div class="flex items-center justify-center my-4">
+  <div id="carousel" class="carousel slide max-w-[512px]" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+      <li data-target="#carousel" data-slide-to="3"></li>
+      <li data-target="#carousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="/static/img/slide-1.png" alt="..." />
+        <div class="carousel-caption !left-10 !top-0 max-w-[50%]">
+          <h2 class="text-[var(--primary-color)] text-[24px] font-bold">
+            The 400 Blows
+          </h2>
+          <p class="mt-4">Release date: 4 May 1959</p>
+          <p class="mt-4 overflow-hidden text-ellipsis line-clamp-4">
+            Antoine Doinel is a young boy growing up in Paris. Misunderstood by
+            his parents for skipping school and stealing and tormented in school
+            for disciplinary problems by his teacher...
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/static/img/slide-2.png" alt="..." />
+        <div class="carousel-caption !left-10 !top-0 max-w-[50%]">
+          <h2 class="text-[var(--primary-color)] text-[24px] font-bold">
+            Paris, Texas
+          </h2>
+          <p class="mt-4">Release date: 19 May 1984</p>
+          <p class="mt-4 overflow-hidden text-ellipsis line-clamp-4">
+            Travis Henderson is wandering through the West Texas desert,
+            bewildered and holding an empty gallon water jug. He wanders into a
+            convenience store...
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/static/img/slide-3.png" alt="..." />
+        <div class="carousel-caption !left-10 !top-0 max-w-[50%]">
+          <h2
+            class="text-[var(--primary-color)] text-[24px] font-bold whitespace-nowrap overflow-hidden text-ellipsis"
+          >
+            Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles
+          </h2>
+          <p class="mt-4">Release date: 14 May 1975</p>
+          <p class="mt-4 overflow-hidden text-ellipsis line-clamp-4">
+            The film examines a widowed mother's regimented schedule of cooking,
+            cleaning, mothering, and running errands over three days. The woman
+            (whose name, Jeanne Dielman, is only discerned from the title and a
+            letter she reads to her son)...
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/static/img/slide-4.png" alt="..." />
+        <div class="carousel-caption !left-10 !top-0 max-w-[50%]">
+          <h2
+            class="text-[var(--primary-color)] text-[24px] font-bold whitespace-nowrap overflow-hidden text-ellipsis"
+          >
+            Paris, Texas
+          </h2>
+          <p class="mt-4">Release date: 19 May 1984</p>
+          <p class="mt-4 overflow-hidden text-ellipsis line-clamp-4">
+            Travis Henderson is wandering through the West Texas desert,
+            bewildered and holding an empty gallon water jug. He wanders into a
+            convenience store...
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/static/img/slide-5.png" alt="..." />
+        <div class="carousel-caption !left-10 !top-0 max-w-[50%]">
+          <h2
+            class="text-[var(--primary-color)] text-[24px] font-bold whitespace-nowrap overflow-hidden text-ellipsis"
+          >
+            2001: A Space Odyssey
+          </h2>
+          <p class="mt-4">Release date: 2 April 1968</p>
+          <p class="mt-4 overflow-hidden text-ellipsis line-clamp-4">
+            In a prehistoric veld, a tribe of hominins is driven away from its
+            water hole by a rival tribe. The next day, they find an alien
+            monolith has appeared in their midst. The tribe then learn how to
+            use a bone as a weapon...
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a
+      class="left carousel-control !w-5 !h-5 absolute !left-0 !top-2 text-[14px] !bg-none opacity-80 hover:opacity-100"
+      href="#carousel"
+      role="button"
+      data-slide="prev"
+    >
+      <span
+        class="glyphicon glyphicon-chevron-left !w-5 !h-5"
+        aria-hidden="true"
+      ></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="right carousel-control !w-5 !h-5 absolute !left-5 !top-2 text-[14px] !bg-none opacity-80 hover:opacity-100"
+      href="#carousel"
+      role="button"
+      data-slide="next"
+    >
+      <span
+        class="glyphicon glyphicon-chevron-right !w-5 !h-5"
+        aria-hidden="true"
+      ></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!--展示电影图片用-->
+<div class="flex flex-wrap gap-9">
+  {% for movie in movies %}
+  <a href="{% url 'movie:detail' movie.pk %}" class="poster">
+    <div class="poster_div shadow-lg">
+      <img src="/static/movie/poster/{{ movie.imdb_id }}.jpg" alt="" />
+      <div class="rating inline-flex items-center justify-cener">
+        <strong>{{ movie.get_score }}</strong>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-star ml-1"
+        >
+          <polygon
+            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+          />
+        </svg>
+      </div>
+      <p
+        class="whitespace-nowrap text-center text-ellipsis overflow-hidden mt-5 hover:text-white text-sm"
+        title="{{movie.name}}"
+      >
+        <span>{{ movie.name }}</span>
+      </p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<!-- nav视图分页用 不用管-->
+<nav style="text-align: center">
+  <ul class="pagination">
+    {#previous page#} {% if page_obj.has_previous %}
+    <li>
+      <a href="{% url 'movie:index' %}?p={{ page_obj.previous_page_number }}"
+        >Back</a
+      >
+    </li>
+    {% else %}
+    <li class="disabled"><a href="javascript:void(0);">Back</a></li>
+    {% endif %} {% if left_has_more %}
+    <li><a href="{% url 'movie:index' %}?p=1">1</a></li>
+    <li><a href="javascript:void(0)">...</a></li>
+    {% endif %} {# 左边的page#} {% for left_page in left_pages %}
+    <li>
+      <a href="{% url 'movie:index' %}?p={{ left_page }}">{{ left_page }}</a>
+    </li>
+    {% endfor %} {# 当前的page#}
+    <li class="active"><a href="javascript:void(0);">{{ current_page }}</a></li>
+
+    {# 右边的page#} {% for right_page in right_pages %}
+    <li>
+      <a href="{% url 'movie:index' %}?p={{ right_page }}">{{ right_page }}</a>
+    </li>
+    {% endfor %} {% if right_has_more %}
+    <li><a href="javascript:void(0)">...</a></li>
+    <li>
+      <a href="{% url 'movie:index' %}?p={{ paginator.num_pages }}"
+        >{{ paginator.num_pages }}</a
+      >
+    </li>
+    {% endif %} {#next page#} {% if page_obj.has_next %}
+    <li>
+      <a href="{% url 'movie:index' %}?p={{ page_obj.next_page_number }}"
+        >Next</a
+      >
+    </li>
+    {% else %}
+    <li class="disabled"><a href="javascript:void(0);">Next</a></li>
+    {% endif %}
+  </ul>
+</nav>
+<script>
+  $(document).ready(function () {
+    $("#carousel").carousel({
+      interval: 2000000,
+    });
+  });
+</script>
+{% endblock %}

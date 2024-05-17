@@ -1,0 +1,138 @@
+{% extends 'movie/layout.html' %}
+{% block content %}
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+          background: url("/static/img/login-bg.jpg") center center no-repeat;
+          background-size: cover;
+          height: 100%%;
+        }
+        
+        .form-signin .form-signin-heading,
+        .form-signin .checkbox {
+            margin-bottom: 10px;
+        }
+
+        .form-signin .checkbox {
+            font-weight: normal;
+        }
+
+        .form-signin .form-control {
+            position: relative;
+            height: auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+        .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+        input:-webkit-autofill {
+            font-size: 24px !important;
+        }
+        .form-signin {
+            padding: 15px;
+            margin: 0 auto;
+        }
+        .form-signin input {
+            appearance: none;
+            background: #777777!important;
+            color: white;
+            height: 40px!important;
+            font-size: 18px!important;
+            padding: 12 16px!important;
+            border-radius: 12px!important;
+        }
+        .form-signin input:-webkit-autofill::first-line {
+            font-size: 18px!important;
+        }
+
+        input:autofill {
+            background: #777777!important;
+            box-shadow: 0 0 0 #777777 inset!important;
+        }
+        input:-webkit-autofill {
+            background: #777777!important;
+            box-shadow: 0 0 0 #777777 inset!important;
+        }
+
+        
+        @media screen and (min-width: 768px) {
+            .form-signin input {
+                height: 76px!important;
+                font-size: 24px!important;
+                padding: 24px 32px!important;
+            }
+            .form-signin input:autofill {
+                font-size: 24px!important;
+            }
+            .form-signin input:-webkit-autofill::first-line {
+                font-size: 24px!important;
+            }
+            .form-signin input:-webkit-input-placeholder {
+                font-size: 24px!important;
+            }
+        }
+    </style>
+    <div class="flex h-screen justify-center">
+        <div>
+            <div class="w-[600px] mt-12">
+                 <h2 class="text-[48px] text-[#48C4EB] text-center font-bold">Login Dreaming</h2>
+                <form class="form-signin" action="" method="post" >
+                    <label for="inputName" class="sr-only">User Name</label>
+        {#           name的值要和表单对应#}
+                    <input type="text" id="inputName" class="form-control w-full mt-12" placeholder="User name" name="name"  required readonly onfocus="this.removeAttribute('readonly')">
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" id="inputPassword" class="form-control mt-12" placeholder="Password"  name="password" required>
+                    {% comment %} <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="1" name="remember"> Remember Me</下次免登录>
+                        </label>
+                    </div> {% endcomment %}
+                    <div class="text-center mt-12">
+                        <button class="btn btn-lg btn-primary bg-[#48C4EB] hover:bg-[#48C4EB] hover:shadow-inner px-9 py-3 rounded-[24px] h-[60px]" type="submit">Login</button>
+                    </div>
+                    <div class="text-[32px] flex gap-4 text-white mt-12 justify-center">
+                        <p>Not a member?</p>
+                        <p class="text-[#48C4EB] hover:!text-[#48C4EB] underline"><a href="{% url 'movie:register' %}">Sign Up</a></p>
+                    </div>
+                </form>
+            </div> <!-- /container -->
+            <div class="container">
+    
+                {% for message in messages %}
+                    {% if message.tags == 'info' %}
+                        <div class="alert alert-info" role="alert">{{ message }}</div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        $(function(){
+            setTimeout(function(){
+                value = $("#inputName").val();
+                $("#inputName").css("font-size", "30px")
+                $("#inputName").click();
+            }, 500);
+        })
+    </script>
+{% endblock %}

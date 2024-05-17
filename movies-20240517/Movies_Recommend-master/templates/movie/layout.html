@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="{% static 'movie/favicon1.ico' %}" />
+    <link rel="bookmark" href="{% static 'movie/favicon1.ico' %}" />
+    <meta charset="UTF-8" />
+    <title>Film</title>
+    <!--引入jQuery-->
+    <link
+      rel="stylesheet"
+      href="{% static 'bootstrap/css/bootstrap.min.css' %}"
+    />
+    <script src="/static/bootstrap/js/jquery.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/js/tailwind.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        html,
+        body {
+          font-size: 16px;
+          color: #a19d9d;
+        }
+  
+        body {
+          --tw-bg-opacity: 1;
+          --tw-text-opacity: 1;
+          background: rgb(28 28 30 / var(--tw-bg-opacity));
+        }
+        .border-gray-darken {
+          --tw-border-opacity: 1;
+          border-color: rgb(58 57 57 / var(--tw-border-opacity));
+        }
+        .bg-dark-lighten {
+          --tw-bg-opacity: 1;
+          background-color: rgb(51 51 53 / var(--tw-bg-opacity));
+        }
+    </style>
+<body>
+    {% block content %} {% endblock %}
+</body>
+</html>

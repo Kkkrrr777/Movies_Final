@@ -1,0 +1,1001 @@
+,name,age,Gender,address,work,married,type
+0,Ğ»ĞãÔÆ,17,Male,Hainan,Employed,Married,Civil Servant
+1,Àè·«,38,Male,Yunnan,Employed,Single,White Collar
+2,ÖÜ¸Õ,25,Female,Sichuan,Employed,Single,White Collar
+3,±å·«,45,Male,Guangdong,Employed,Married,Sales
+4,Ö£Ñî,29,Female,Ningxia,Employed,Married,White Collar
+5,Íõè´,30,Male,Henan,Employed,Married,White Collar
+6,Ô¬À×,31,Male,Zhejiang,Employed,Single,White Collar
+7,ĞíË§,34,Male,Beijing,Freelance,Single,Civil Servant
+8,Åí»ª,37,Male,Guizhou,Employed,Divorced,White Collar
+9,ÕÅÑó,18,Male,Ningxia,Freelance,Married,White Collar
+10,Îâ½¨¾ü,42,Female,Zhejiang,Employed,Married,Teacher
+11,ºúÁá,21,Female,Neimeng,Employed,Single,Blue Collar
+12,Òü¹ğ»¨,17,Female,Jilin,Employed,Married,White Collar
+13,Ğí½¨»ª,39,Female,Xinjiang,Employed,Married,White Collar
+14,ËïÁø,44,Female,Henan,Employed,Married,White Collar
+15,ñûè´,31,Female,Guizhou,Freelance,Married,White Collar
+16,ÖÜ¾²,17,Male,Hunan,Employed,Single,White Collar
+17,ºúÓñ»ª,19,Male,Hong Kong,Employed,Married,White Collar
+18,×ŞÖ¾Ç¿,39,Male,Shandong,Employed,Single,Sales
+19,ÁõĞãÕä,32,Male,Liaoning,Employed,Married,Blue Collar
+20,²Ìè¤,28,Female,Zhejiang,Freelance,Married,Blue Collar
+21,Ö£ÓÂ,44,Male,Gansu,Employed,Single,Civil Servant
+22,ÔøÎÄ,23,Male,Hunan,Employed,Divorced,White Collar
+23,²ÌÀö»ª,25,Female,Liaoning,Employed,Married,Blue Collar
+24,ÍõĞãÓ¢,42,Female,Shandong,Employed,Divorced,White Collar
+25,Áõ»¶,28,Female,Guizhou,Freelance,Married,White Collar
+26,³Â·ïÓ¢,43,Male,Hebei,Employed,Married,White Collar
+27,ÁèĞÀ,27,Male,Jiangxi,Employed,Single,White Collar
+28,ÍõæÃ,37,Male,Jiangsu,Freelance,Divorced,Blue Collar
+29,ÅíÑ©,35,Female,Shaanxi,Employed,Divorced,Blue Collar
+30,Íõè¤,21,Female,Taiwan,Freelance,Married,White Collar
+31,¶Å·å,21,Female,Xinjiang,Employed,Married,White Collar
+32,»ÆÏë,42,Male,Macau,Employed,Married,Teacher
+33,ÀîÊçÓ¢,45,Male,Xizang,Employed,Married,White Collar
+34,Ò¦ĞãÕä,25,Female,Anhui,Freelance,Married,Teacher
+35,ÕÅÇ¿,25,Female,Shaanxi,Employed,Married,White Collar
+36,ÂíÑ©Ã·,17,Male,Shanxi,Freelance,Single,Blue Collar
+37,ÕÅĞÀ,18,Female,Heilongjiang,Freelance,Single,White Collar
+38,³ÂÀ×,43,Female,Tianjin,Employed,Single,Sales
+39,ÕÅÑó,41,Male,Taiwan,Employed,Single,Teacher
+40,Àî»¶,40,Female,Heilongjiang,Employed,Married,Civil Servant
+41,Íõºì,18,Female,Yunnan,Freelance,Single,White Collar
+42,Ö£½¨¾ü,16,Female,Jiangsu,Employed,Married,White Collar
+43,ÄßÁÖ,26,Female,Taiwan,Employed,Single,White Collar
+44,Ğìè¤,17,Female,Yunnan,Employed,Single,White Collar
+45,³ÂĞãÀ¼,33,Male,Xinjiang,Employed,Married,Civil Servant
+46,³ÂæÃ,42,Male,Heilongjiang,Employed,Divorced,White Collar
+47,Ö£ÓñÃ·,36,Male,Liaoning,Employed,Married,Sales
+48,ÁºÓ¢,23,Female,Yunnan,Employed,Married,Blue Collar
+49,¹ùÓ¢,43,Female,Neimeng,Freelance,Married,Teacher
+50,¼ÍÑÒ,26,Male,Jiangsu,Freelance,Married,White Collar
+51,ÕÔÔÆ,20,Male,Heilongjiang,Employed,Single,White Collar
+52,ÍõæÃæÃ,33,Male,Xinjiang,Employed,Married,White Collar
+53,ñ¼³¿,39,Female,Qinghai,Freelance,Divorced,White Collar
+54,ÈÎÀ×,44,Male,Xizang,Employed,Single,Civil Servant
+55,°×ÁÖ,38,Female,Ningxia,Employed,Divorced,White Collar
+56,ÖìÈğ,19,Male,Sichuan,Employed,Married,White Collar
+57,ÑîÑà,30,Male,Henan,Employed,Married,White Collar
+58,ÕÔ·É,29,Male,Guizhou,Employed,Married,White Collar
+59,ÔÀ½Ü,40,Male,Shandong,Freelance,Single,Teacher
+60,ÕÅÓñÓ¢,42,Female,Guangdong,Freelance,Married,White Collar
+61,ÈÎÁú,28,Female,Guangdong,Employed,Married,White Collar
+62,»ÆÀÚ,30,Male,Shanxi,Employed,Single,White Collar
+63,ÑîÀöÀö,16,Female,Guangdong,Freelance,Divorced,Sales
+64,ÈÎĞñ,21,Male,Hunan,Employed,Single,Blue Collar
+65,ÁúÓñ»ª,34,Male,Taiwan,Freelance,Single,White Collar
+66,ÀîÀö»ª,28,Male,Xinjiang,Freelance,Single,White Collar
+67,¼¾öÎ,36,Female,Hong Kong,Employed,Single,White Collar
+68,Â½ÑÒ,26,Male,Beijing,Employed,Single,Blue Collar
+69,ÑîÓñ,22,Male,Chongqing,Freelance,Married,White Collar
+70,ÌÀÏ¼,29,Male,Guangxi,Employed,Divorced,White Collar
+71,¸ßÀ×,32,Female,Neimeng,Employed,Divorced,Sales
+72,¸µÀÚ,22,Male,Xizang,Employed,Single,White Collar
+73,ºúæÃ,18,Female,Xizang,Employed,Married,White Collar
+74,Ğ»¶¬Ã·,17,Male,Liaoning,Employed,Divorced,Blue Collar
+75,ÎâÑ©,22,Female,Taiwan,Employed,Single,White Collar
+76,ÇÇ·«,45,Female,Tianjin,Freelance,Married,Blue Collar
+77,ÁºÊçÕä,41,Female,Jiangxi,Employed,Single,Blue Collar
+78,ÕÅ±ò,39,Male,Xinjiang,Freelance,Single,Blue Collar
+79,ºúĞã»ª,26,Female,Xinjiang,Freelance,Single,Blue Collar
+80,ÀîÑô,38,Male,Hainan,Employed,Single,Sales
+81,°×´ºÃ·,38,Female,Jiangsu,Employed,Married,White Collar
+82,Â½ĞãÕä,22,Male,Tianjin,Employed,Married,White Collar
+83,Å£Ïë,35,Male,Shandong,Employed,Divorced,Blue Collar
+84,ÈîÇ¿,45,Female,Zhejiang,Employed,Married,Blue Collar
+85,ÎäÑó,37,Female,Qinghai,Employed,Single,White Collar
+86,Ñî¹ğ»¨,26,Female,Henan,Freelance,Divorced,White Collar
+87,ºÎÌÎ,32,Male,Hunan,Employed,Single,Sales
+88,ÖÜÀ×,41,Female,Jiangxi,Freelance,Married,White Collar
+89,Íõ¿¡,31,Female,Fujian,Employed,Married,Sales
+90,Íõ¶¬Ã·,30,Male,Tianjin,Employed,Single,Blue Collar
+91,»ÆÑÒ,38,Male,Ningxia,Employed,Divorced,Blue Collar
+92,À¶ÇÙ,19,Male,Guangdong,Freelance,Married,Civil Servant
+93,Àîº£Ñà,38,Male,Jiangxi,Employed,Single,Blue Collar
+94,ÁºÁá,33,Female,Jiangsu,Employed,Single,White Collar
+95,Ì·Ó±,16,Female,Xizang,Employed,Single,Blue Collar
+96,¼ÆĞã·¼,40,Male,Hunan,Freelance,Single,Teacher
+97,ÁõĞñ,39,Female,Gansu,Freelance,Single,White Collar
+98,±«³©,18,Male,Taiwan,Employed,Single,Blue Collar
+99,ÀîÈğ,29,Male,Anhui,Employed,Divorced,Blue Collar
+100,ÕÅ³¿,45,Male,Chongqing,Employed,Married,White Collar
+101,ÅÓÀò,28,Male,Guangdong,Employed,Single,Blue Collar
+102,³ÂºìÃ·,32,Female,Hubei,Employed,Married,Teacher
+103,ÆÓÑŞ,44,Female,Qinghai,Freelance,Married,White Collar
+104,»Æ±ó,30,Male,Shandong,Freelance,Married,Civil Servant
+105,Ñ¦·ïÀ¼,19,Male,Beijing,Employed,Single,Blue Collar
+106,ÍõÁø,31,Female,Liaoning,Freelance,Single,Sales
+107,ÀèÓñÀ¼,32,Male,Qinghai,Employed,Divorced,White Collar
+108,Ò¶ĞãÃ·,28,Male,Hebei,Employed,Married,White Collar
+109,ÑîÁÁ,25,Male,Guangdong,Employed,Married,White Collar
+110,ÁÎĞã»ª,39,Male,Guizhou,Employed,Married,Civil Servant
+111,ÁõÀ×,38,Female,Guangdong,Employed,Married,White Collar
+112,ÌïÁø,32,Male,Liaoning,Freelance,Single,Civil Servant
+113,ÔøÃ·,22,Male,Anhui,Freelance,Single,Blue Collar
+114,ºîÑÒ,23,Male,Zhejiang,Employed,Married,White Collar
+115,¹¶ĞãÈÙ,26,Female,Guangxi,Freelance,Single,Blue Collar
+116,ÕÅ½¨»ª,18,Male,Hunan,Freelance,Single,White Collar
+117,ÀîÓ±,28,Female,Fujian,Freelance,Single,White Collar
+118,Ã«Æ¼,44,Male,Guangxi,Employed,Divorced,Blue Collar
+119,°×Ğñ,27,Female,Shanxi,Employed,Single,White Collar
+120,²Ì¹ğÏã,16,Male,Jiangxi,Freelance,Single,White Collar
+121,ÍõÀ¤,30,Female,Sichuan,Employed,Married,Blue Collar
+122,·¶Ù»,27,Male,Guizhou,Freelance,Single,Civil Servant
+123,¹ù±ò,27,Male,Shanghai,Employed,Divorced,Teacher
+124,ÑÕ½¨»ª,29,Female,Hainan,Employed,Single,Sales
+125,ÍõÁÕ,17,Male,Shanghai,Freelance,Married,White Collar
+126,¼¾Ã÷,30,Male,Chongqing,Freelance,Married,Blue Collar
+127,Ñî¹ğ·¼,39,Male,Liaoning,Employed,Single,Teacher
+128,ºØºì,23,Female,Shanghai,Employed,Divorced,White Collar
+129,ÀîÀÚ,40,Male,Sichuan,Employed,Single,White Collar
+130,³µÀöÀö,44,Male,Liaoning,Employed,Married,Civil Servant
+131,¶Î³¿,24,Female,Macau,Employed,Single,White Collar
+132,¹ùÀö¾ê,38,Female,Fujian,Freelance,Married,Blue Collar
+133,ºî»Û,23,Female,Shanxi,Freelance,Married,Civil Servant
+134,ÀîĞãÕä,36,Female,Qinghai,Freelance,Single,Blue Collar
+135,Áõ½¨»ª,23,Female,Ningxia,Employed,Single,White Collar
+136,¹ù³©,39,Male,Guangxi,Employed,Single,Sales
+137,ÍõÁá,36,Male,Sichuan,Employed,Divorced,Blue Collar
+138,¶¡ÁÖ,28,Female,Hebei,Employed,Single,Teacher
+139,»Æ¹ğÀ¼,26,Male,Anhui,Employed,Single,Teacher
+140,ÕÅÑŞ,22,Male,Fujian,Employed,Single,White Collar
+141,ÍõÀò,45,Female,Hebei,Freelance,Married,Sales
+142,´Ş·«,24,Female,Hubei,Employed,Married,Blue Collar
+143,ÁÖ±ò,41,Male,Liaoning,Freelance,Married,Sales
+144,Ğì¹ğ·¼,41,Male,Jiangxi,Employed,Married,White Collar
+145,ÅËÄÈ,21,Female,Hubei,Employed,Divorced,Civil Servant
+146,Áõ½Ü,45,Female,Guizhou,Freelance,Single,Teacher
+147,Ê¯¿­,45,Male,Guangdong,Freelance,Married,Blue Collar
+148,ÕÅÄÈ,38,Female,Jilin,Employed,Single,White Collar
+149,Â·ÀöÀö,38,Female,Xinjiang,Employed,Single,Sales
+150,Ö£½Ü,41,Male,Neimeng,Employed,Married,Blue Collar
+151,ÁõÑó,18,Male,Neimeng,Freelance,Single,Civil Servant
+152,ÌÕ½¨,34,Male,Shaanxi,Employed,Married,White Collar
+153,Ñî¾²,44,Male,Liaoning,Freelance,Single,White Collar
+154,Áõ½¨»ª,26,Male,Hebei,Freelance,Single,Sales
+155,µ¥Ó¢,25,Male,Yunnan,Freelance,Single,Civil Servant
+156,ÖÓÔÆ,30,Male,Jilin,Employed,Married,White Collar
+157,º«ĞãÔÆ,35,Male,Fujian,Freelance,Married,Blue Collar
+158,ÀîÀ¼Ó¢,18,Male,Macau,Employed,Married,White Collar
+159,Àî¿­,32,Male,Guangxi,Freelance,Married,White Collar
+160,»ª½à,42,Male,Zhejiang,Freelance,Single,White Collar
+161,Áõ¹ğÕä,39,Male,Hong Kong,Employed,Single,White Collar
+162,Ì·è¤,40,Female,Shandong,Freelance,Single,White Collar
+163,ÏÄÀò,29,Male,Neimeng,Employed,Divorced,White Collar
+164,Âíéª,42,Male,Shandong,Employed,Married,Blue Collar
+165,ÌÀ¿­,17,Male,Hunan,Employed,Divorced,Sales
+166,Ñî¹ğÓ¢,32,Female,Gansu,Employed,Single,White Collar
+167,ÈÎ±ò,32,Female,Hunan,Employed,Married,Teacher
+168,ÎéÎ°,24,Male,Guangdong,Employed,Married,Sales
+169,ÃÏÑô,38,Female,Xizang,Employed,Single,Blue Collar
+170,ÕÅ·ïÀ¼,42,Female,Neimeng,Freelance,Married,White Collar
+171,ÍõÌÎ,30,Female,Macau,Freelance,Married,White Collar
+172,Ò¦Ï¼,21,Female,Shaanxi,Employed,Single,White Collar
+173,ÁõÑà,29,Female,Heilongjiang,Freelance,Married,Blue Collar
+174,ÕÔ´ºÃ·,22,Male,Hunan,Freelance,Married,Teacher
+175,ÑîÑ©Ã·,23,Male,Yunnan,Employed,Married,Sales
+176,Àî¶«,41,Male,Neimeng,Employed,Single,Civil Servant
+177,Î¤±ò,35,Female,Hainan,Employed,Married,White Collar
+178,Áõ²¨,45,Female,Zhejiang,Employed,Single,Teacher
+179,¹ùÊçÓ¢,36,Male,Hunan,Freelance,Single,White Collar
+180,ÁõÀ¼Ó¢,22,Female,Liaoning,Freelance,Single,Sales
+181,»ÆÁÖ,23,Male,Guizhou,Freelance,Married,Sales
+182,ÍõÀöÀö,38,Female,Guangxi,Freelance,Single,Civil Servant
+183,ÖÓ·å,20,Female,Macau,Employed,Married,Blue Collar
+184,Ğì²¨,30,Female,Shaanxi,Employed,Married,Sales
+185,ÑîÓñÓ¢,18,Male,Xizang,Freelance,Single,White Collar
+186,Ì·éª,38,Male,Xizang,Employed,Divorced,Blue Collar
+187,½ªÁÁ,20,Female,Tianjin,Employed,Married,Sales
+188,Íõ½à,38,Male,Beijing,Employed,Married,White Collar
+189,ÕÅÙ»,44,Female,Yunnan,Employed,Married,White Collar
+190,Ê·¾§,26,Female,Heilongjiang,Employed,Married,Blue Collar
+191,ºÎÀ¤,34,Male,Taiwan,Employed,Single,Blue Collar
+192,ÄßÊçÕä,27,Female,Beijing,Employed,Married,Blue Collar
+193,ÕÅÁÁ,33,Male,Qinghai,Employed,Married,Blue Collar
+194,Áõ¾²,40,Male,Gansu,Employed,Single,White Collar
+195,Ñî³¬,21,Female,Guizhou,Freelance,Married,Civil Servant
+196,½ªĞãÕä,38,Female,Yunnan,Employed,Single,Blue Collar
+197,Ç®Ó±,45,Male,Henan,Employed,Married,White Collar
+198,ÎéÙ»,32,Female,Yunnan,Employed,Married,White Collar
+199,ÕÅÓñÓ¢,38,Female,Jiangsu,Employed,Single,White Collar
+200,ÁÖÙ»,31,Male,Tianjin,Employed,Married,White Collar
+201,ÍõÓ¢,33,Female,Shandong,Freelance,Single,Sales
+202,ºô¶«,20,Female,Shandong,Employed,Married,Blue Collar
+203,ÎäÊçÕä,33,Female,Chongqing,Employed,Single,White Collar
+204,ÁÖÀ×,40,Male,Shanxi,Employed,Married,Civil Servant
+205,Öì¹ğÓ¢,16,Female,Hebei,Freelance,Married,Sales
+206,¾°½¨»ª,41,Male,Fujian,Freelance,Single,White Collar
+207,ÂŞ·ïÀ¼,17,Female,Jilin,Employed,Married,White Collar
+208,Ñî±ø,41,Male,Qinghai,Freelance,Single,White Collar
+209,Öì½Ü,25,Female,Ningxia,Employed,Married,Teacher
+210,Îä¹ğÈÙ,21,Male,Shaanxi,Freelance,Married,White Collar
+211,Â¬Áø,24,Female,Shanxi,Employed,Single,White Collar
+212,ÌÆÊçÕä,17,Male,Jiangxi,Freelance,Single,Blue Collar
+213,¹ùè´,20,Female,Xinjiang,Employed,Single,Blue Collar
+214,ÑÖĞñ,42,Male,Hong Kong,Employed,Single,Teacher
+215,ÖÜĞã»ª,25,Female,Yunnan,Employed,Married,White Collar
+216,ÑîÏë,19,Male,Jilin,Employed,Married,White Collar
+217,ÀîĞãÃ·,37,Female,Ningxia,Freelance,Single,Blue Collar
+218,ñû¾ê,22,Male,Hainan,Employed,Married,Sales
+219,ÀµĞÀ,17,Male,Ningxia,Employed,Married,White Collar
+220,ËïÁÖ,17,Male,Liaoning,Employed,Single,Civil Servant
+221,ÈÙÁÕ,30,Female,Jiangsu,Employed,Married,Civil Servant
+222,Çñ¹ğÓ¢,37,Male,Neimeng,Freelance,Married,Teacher
+223,¿×±ø,27,Female,Zhejiang,Employed,Married,Blue Collar
+224,Àî·«,41,Male,Liaoning,Employed,Divorced,White Collar
+225,²Ü³©,32,Female,Hong Kong,Employed,Married,White Collar
+226,³ÂĞãÀ¼,33,Male,Shanxi,Employed,Single,Sales
+227,»Æ½Ü,36,Female,Beijing,Employed,Married,Civil Servant
+228,³Â½¨¹ú,23,Female,Guizhou,Employed,Married,White Collar
+229,ËåÓ¢,38,Male,Macau,Employed,Married,White Collar
+230,¿µºÆ,34,Female,Jilin,Freelance,Married,White Collar
+231,¼ÍÁá,29,Male,Jilin,Employed,Married,Blue Collar
+232,ÖÜæÃ,33,Male,Guangxi,Employed,Married,Sales
+233,º«¹ğÓ¢,16,Male,Macau,Freelance,Single,Blue Collar
+234,³ÂÙ»,32,Female,Guangxi,Employed,Single,White Collar
+235,³Â±ò,16,Male,Xinjiang,Freelance,Divorced,Teacher
+236,Àî½à,25,Female,Hubei,Employed,Married,Teacher
+237,ÅËÀû,26,Female,Hubei,Freelance,Single,White Collar
+238,Ñîè´,38,Female,Xinjiang,Employed,Married,White Collar
+239,Âí·ïÓ¢,22,Female,Shandong,Employed,Divorced,Teacher
+240,Àî½¨»ª,43,Female,Yunnan,Employed,Single,White Collar
+241,½ªº£Ñà,38,Male,Macau,Employed,Married,White Collar
+242,ÖÜÎÄ,31,Male,Hunan,Freelance,Married,Sales
+243,Íõ½ğ·ï,27,Female,Hunan,Employed,Single,Sales
+244,Íõ³¬,29,Female,Shaanxi,Freelance,Single,Blue Collar
+245,Ôø¹ğÏã,22,Male,Xinjiang,Employed,Married,Sales
+246,»ªÏ¼,43,Male,Jiangxi,Employed,Married,Teacher
+247,º«ĞãÃ·,19,Female,Fujian,Freelance,Single,Blue Collar
+248,ÉĞÀöÀö,39,Male,Hebei,Freelance,Divorced,White Collar
+249,ÑîÄÈ,19,Female,Ningxia,Employed,Single,Civil Servant
+250,ÕÅĞãÔÆ,18,Male,Henan,Employed,Single,White Collar
+251,ÁõºìÏ¼,29,Female,Hong Kong,Employed,Married,Teacher
+252,»Æè´,42,Male,Jilin,Freelance,Married,Teacher
+253,ÅËÁÁ,31,Female,Heilongjiang,Employed,Married,White Collar
+254,ÎÄ·«,21,Female,Macau,Employed,Single,Teacher
+255,ÍõÓñÕä,35,Female,Tianjin,Employed,Single,White Collar
+256,ÂŞÀÚ,19,Female,Fujian,Freelance,Married,Blue Collar
+257,ÁõÄş,39,Male,Shanghai,Freelance,Divorced,White Collar
+258,¸ğÓ±,28,Female,Macau,Employed,Married,White Collar
+259,³ÂÌÎ,16,Female,Liaoning,Employed,Single,White Collar
+260,ÔøÁú,34,Female,Yunnan,Employed,Married,Blue Collar
+261,ÕÅÑÒ,39,Female,Xinjiang,Employed,Divorced,Sales
+262,É£Ó¢,25,Female,Xizang,Employed,Single,White Collar
+263,ÕÅÇÙ,44,Male,Beijing,Employed,Divorced,White Collar
+264,ÕÔÓÂ,38,Male,Shanghai,Freelance,Divorced,Sales
+265,ÕÅ·¼,38,Male,Zhejiang,Employed,Married,Blue Collar
+266,Ã«ÓñÓ¢,40,Male,Zhejiang,Freelance,Single,White Collar
+267,ÀîĞÀ,16,Male,Xinjiang,Freelance,Single,White Collar
+268,ÏôÑŞ,19,Female,Xinjiang,Employed,Married,White Collar
+269,ÑîÀò,21,Male,Yunnan,Employed,Married,Teacher
+270,ÀîÀÚ,39,Female,Anhui,Employed,Single,White Collar
+271,ÄÂÊçÓ¢,28,Male,Xizang,Employed,Single,White Collar
+272,Àè³©,30,Female,Taiwan,Freelance,Married,White Collar
+273,ºÎÓ¨,33,Female,Liaoning,Employed,Single,White Collar
+274,ĞÜ½¨¾ü,29,Female,Fujian,Employed,Married,White Collar
+275,Éò½¡,20,Female,Beijing,Employed,Married,White Collar
+276,Àîºì,20,Female,Jiangxi,Freelance,Married,Sales
+277,½¹²¨,17,Female,Guangxi,Freelance,Married,White Collar
+278,ÅËÁÖ,30,Female,Zhejiang,Employed,Married,Blue Collar
+279,Áõ·å,25,Male,Tianjin,Employed,Single,Sales
+280,ĞìÓ¨,33,Male,Guangdong,Employed,Married,Blue Collar
+281,ËïÆ½,20,Male,Macau,Employed,Married,Civil Servant
+282,ÀîöÎ,19,Female,Jilin,Employed,Single,Blue Collar
+283,³ÂÑó,27,Male,Neimeng,Employed,Single,Sales
+284,ÅËĞãÔÆ,39,Female,Beijing,Freelance,Married,Blue Collar
+285,ÍõÇ¿,30,Male,Hebei,Employed,Single,Sales
+286,³ÂÀÚ,39,Female,Ningxia,Freelance,Married,White Collar
+287,Ñî²©,20,Male,Sichuan,Employed,Single,Civil Servant
+288,ÍõÈğ,34,Female,Shanghai,Employed,Divorced,White Collar
+289,ĞìÓ¢,39,Male,Guangxi,Employed,Single,White Collar
+290,ÑîÓî,45,Male,Taiwan,Employed,Single,White Collar
+291,ÕÔºìÃ·,45,Male,Xizang,Employed,Divorced,Civil Servant
+292,ÕÅÅô,22,Male,Neimeng,Employed,Single,Teacher
+293,Ñîµ¤,19,Male,Neimeng,Freelance,Single,White Collar
+294,¹ğº£Ñà,33,Male,Sichuan,Employed,Single,Civil Servant
+295,öÄ»ª,43,Female,Beijing,Employed,Single,White Collar
+296,Í¯½¨,22,Male,Jiangxi,Employed,Single,White Collar
+297,Áõ¹ğÈÙ,42,Male,Chongqing,Employed,Single,Sales
+298,Ñî¿­,31,Male,Jiangxi,Employed,Single,Sales
+299,ÕÔ·É,36,Male,Henan,Freelance,Married,White Collar
+300,ÁõÆ½,18,Male,Hainan,Freelance,Married,Teacher
+301,½¯ÓñÓ¢,19,Female,Qinghai,Employed,Married,Sales
+302,Ê·Ó¨,32,Female,Fujian,Employed,Married,White Collar
+303,ÀîæÃ,44,Female,Heilongjiang,Freelance,Married,Teacher
+304,³Â±ó,21,Female,Neimeng,Employed,Single,Teacher
+305,Ö£¶¬Ã·,30,Female,Zhejiang,Freelance,Married,Sales
+306,ÂŞÅô,42,Male,Henan,Employed,Married,White Collar
+307,Ö£·ïÀ¼,29,Male,Chongqing,Employed,Single,White Collar
+308,ÀîöÎ,18,Male,Guangdong,Freelance,Single,White Collar
+309,ÔøºìÏ¼,35,Female,Xizang,Freelance,Married,White Collar
+310,ÂÀÓ±,33,Male,Chongqing,Employed,Single,Blue Collar
+311,Û¬ÓñÕä,19,Male,Chongqing,Employed,Married,Blue Collar
+312,Àîºì,35,Female,Jiangsu,Employed,Single,White Collar
+313,ºÂ½Ü,33,Female,Liaoning,Freelance,Single,White Collar
+314,ÀîĞãÀ¼,27,Male,Tianjin,Employed,Single,White Collar
+315,ÑîºìÃ·,22,Female,Xinjiang,Freelance,Divorced,White Collar
+316,Ğ»³É,36,Male,Anhui,Employed,Single,White Collar
+317,Ñî²©,28,Male,Anhui,Freelance,Single,Civil Servant
+318,ÍõÀû,23,Female,Henan,Employed,Single,White Collar
+319,ÕÅ½¨Æ½,32,Female,Anhui,Freelance,Married,White Collar
+320,ËÎÎÄ,39,Female,Guizhou,Employed,Single,Blue Collar
+321,Ê¯º£Ñà,31,Male,Ningxia,Employed,Married,White Collar
+322,ÀîÎ°,20,Female,Henan,Freelance,Married,Teacher
+323,¹ğºìÃ·,43,Male,Anhui,Freelance,Married,White Collar
+324,ºú²©,33,Male,Anhui,Employed,Single,White Collar
+325,ÇØ¶¬Ã·,17,Male,Hainan,Employed,Married,White Collar
+326,´÷Àû,16,Male,Shaanxi,Employed,Married,Sales
+327,Å©ĞãÔÆ,22,Male,Hebei,Employed,Single,Teacher
+328,Çüè´,30,Male,Guizhou,Employed,Married,White Collar
+329,Éò¹ğ»¨,21,Female,Ningxia,Employed,Married,Blue Collar
+330,²Ü³¿,28,Male,Sichuan,Employed,Single,Blue Collar
+331,Íõ³©,31,Male,Jiangsu,Freelance,Married,White Collar
+332,Ö£´ºÃ·,28,Male,Gansu,Employed,Married,Civil Servant
+333,ÕÅ±ø,21,Female,Hainan,Freelance,Married,White Collar
+334,Ò¦Äş,26,Male,Jiangxi,Employed,Single,White Collar
+335,ÎéÃô,19,Male,Hunan,Freelance,Married,Teacher
+336,Àî·¼,29,Female,Xinjiang,Employed,Married,White Collar
+337,ÍõÁá,22,Female,Shandong,Freelance,Married,Civil Servant
+338,ÍõÓñÓ¢,17,Female,Neimeng,Employed,Single,Civil Servant
+339,ÏÊĞãÃ·,30,Female,Tianjin,Employed,Single,Civil Servant
+340,¸ßÑÒ,19,Female,Hubei,Freelance,Single,Blue Collar
+341,Ò×Àö»ª,32,Female,Guangxi,Employed,Married,Blue Collar
+342,ÁõÓñÀ¼,43,Male,Shanghai,Employed,Married,White Collar
+343,ÂÀ¾§,41,Male,Sichuan,Employed,Married,Blue Collar
+344,ºî¹ğ·¼,30,Female,Hubei,Employed,Married,White Collar
+345,ÕÅ¹ğÈÙ,30,Male,Henan,Employed,Single,Teacher
+346,ºÎÃô,39,Female,Neimeng,Freelance,Single,Blue Collar
+347,³Ìéª,31,Female,Taiwan,Employed,Single,Blue Collar
+348,Ã×Áø,20,Male,Taiwan,Employed,Married,White Collar
+349,Àî½¨,28,Male,Tianjin,Employed,Married,White Collar
+350,Àî¶¬Ã·,34,Female,Zhejiang,Employed,Single,Blue Collar
+351,Çñ¹ğÖ¥,42,Male,Shanghai,Employed,Single,Sales
+352,ÌïÔÆ,41,Female,Zhejiang,Employed,Married,White Collar
+353,´÷·É,16,Female,Hainan,Employed,Married,Civil Servant
+354,ÓàĞãÕä,42,Male,Xizang,Employed,Married,White Collar
+355,ÕÅÀö,33,Female,Gansu,Freelance,Single,Blue Collar
+356,Âí½¨Æ½,22,Male,Shaanxi,Employed,Single,Civil Servant
+357,ÌÆÓñÃ·,36,Female,Anhui,Freelance,Single,White Collar
+358,ÌÆ³É,37,Male,Shanghai,Freelance,Married,White Collar
+359,Ñî»Ô,23,Female,Hainan,Freelance,Married,White Collar
+360,ÀîÔÆ,42,Female,Anhui,Freelance,Married,Teacher
+361,À¶·É,31,Male,Gansu,Employed,Married,Teacher
+362,Ğì³É,35,Female,Hainan,Employed,Married,Blue Collar
+363,ÏôÓ¢,23,Female,Zhejiang,Freelance,Single,White Collar
+364,Ñ¦±ò,44,Female,Chongqing,Employed,Single,White Collar
+365,·¶»Ô,39,Male,Jilin,Employed,Married,White Collar
+366,Ğí¹ğÀ¼,22,Male,Ningxia,Employed,Single,White Collar
+367,Àî¶«,43,Female,Neimeng,Employed,Single,Teacher
+368,Ã«Æ¼,27,Male,Henan,Employed,Single,Civil Servant
+369,ÁÎÀ×,40,Female,Neimeng,Employed,Divorced,Civil Servant
+370,Â½æÃæÃ,23,Female,Jilin,Employed,Single,White Collar
+371,¹ùÀû,43,Male,Sichuan,Employed,Married,White Collar
+372,½¯ÊçÓ¢,27,Male,Shaanxi,Employed,Single,White Collar
+373,ÀîÈğ,20,Male,Shaanxi,Employed,Single,White Collar
+374,ÑîÆ½,17,Male,Beijing,Employed,Married,White Collar
+375,ÑîÀ×,20,Female,Guangxi,Freelance,Married,White Collar
+376,¼Ö¾ê,18,Male,Jiangxi,Employed,Single,Teacher
+377,ËïĞãÈÙ,16,Female,Qinghai,Freelance,Single,Blue Collar
+378,µÒ»¶,37,Female,Shanxi,Employed,Married,Teacher
+379,ÕÔºì,22,Male,Qinghai,Employed,Single,Civil Servant
+380,ÕÅÏë,28,Female,Heilongjiang,Employed,Single,Sales
+381,ÅíÏ¼,21,Female,Ningxia,Freelance,Single,Civil Servant
+382,Àî¼Ñ,19,Female,Sichuan,Employed,Single,White Collar
+383,Áõ¸Õ,44,Male,Tianjin,Freelance,Single,White Collar
+384,ÀµÆ¼,21,Female,Zhejiang,Employed,Single,White Collar
+385,ÍõÓñÀ¼,37,Male,Hainan,Employed,Single,Blue Collar
+386,Áõ²¨,33,Male,Heilongjiang,Employed,Single,White Collar
+387,Â½¾§,45,Male,Hubei,Employed,Married,White Collar
+388,ËÎ»ª,24,Female,Jiangsu,Employed,Single,Sales
+389,ÕÅÀö»ª,18,Male,Xizang,Freelance,Married,White Collar
+390,ÑîÏë,21,Male,Jilin,Employed,Single,Civil Servant
+391,Ñî¹ğÖ¥,20,Male,Hunan,Employed,Single,Blue Collar
+392,ÕÅÁÁ,29,Female,Macau,Employed,Married,White Collar
+393,ÎâĞãÀ¼,31,Female,Anhui,Freelance,Married,White Collar
+394,ÕÅ½¨,38,Male,Qinghai,Employed,Divorced,White Collar
+395,ºÎË§,36,Female,Hubei,Freelance,Married,White Collar
+396,³Â·å,18,Female,Liaoning,Employed,Divorced,Blue Collar
+397,ÎÂĞãÈÙ,21,Female,Xinjiang,Employed,Single,Blue Collar
+398,ÑÖ»Û,19,Female,Hebei,Employed,Married,White Collar
+399,êÃ±ø,24,Male,Anhui,Employed,Married,Civil Servant
+400,´÷½¨¹ú,23,Male,Xizang,Freelance,Married,Sales
+401,µË»¶,20,Female,Hong Kong,Freelance,Married,Blue Collar
+402,Àî±ø,22,Male,Guangxi,Employed,Single,Blue Collar
+403,Àî½¨Æ½,33,Female,Chongqing,Employed,Married,White Collar
+404,³ÂÓñÃ·,37,Female,Neimeng,Freelance,Single,White Collar
+405,ÖìÑÒ,27,Male,Hubei,Freelance,Married,Teacher
+406,ÁÖÓ¨,45,Female,Xizang,Employed,Single,Sales
+407,Òü³¿,25,Male,Neimeng,Freelance,Single,Sales
+408,ÆëÀû,22,Female,Macau,Employed,Married,Blue Collar
+409,µ¥¾ê,32,Male,Gansu,Employed,Single,Civil Servant
+410,±«ÎÄ,17,Male,Xinjiang,Employed,Divorced,Blue Collar
+411,µËæÃæÃ,18,Male,Beijing,Freelance,Divorced,Teacher
+412,Ê¯¹ğ»¨,37,Female,Guizhou,Employed,Married,Teacher
+413,Æë´ºÃ·,29,Male,Chongqing,Freelance,Married,Teacher
+414,Áú·É,17,Male,Hebei,Employed,Single,White Collar
+415,ÕÔ·«,44,Female,Jilin,Employed,Married,White Collar
+416,Ô¬½¨¹ú,19,Female,Zhejiang,Employed,Single,White Collar
+417,ÁõÄş,29,Male,Shanghai,Freelance,Single,White Collar
+418,ÕÅ²©,30,Male,Hunan,Employed,Single,Civil Servant
+419,ÁõÀ¼Ó¢,24,Female,Guizhou,Employed,Married,Teacher
+420,Àî»Ô,41,Male,Xinjiang,Freelance,Married,Teacher
+421,ÑÖÓñÃ·,38,Female,Tianjin,Employed,Married,White Collar
+422,¸ßÓñÀ¼,41,Female,Hebei,Employed,Single,Civil Servant
+423,¹ùÓñÀ¼,20,Female,Chongqing,Freelance,Divorced,Civil Servant
+424,Áº±ø,24,Male,Guangxi,Employed,Married,Civil Servant
+425,Âí¹ğÖ¥,34,Female,Heilongjiang,Freelance,Single,White Collar
+426,½¯Êç»ª,29,Male,Jiangsu,Employed,Married,Blue Collar
+427,»ÆÔÆ,40,Female,Fujian,Employed,Married,White Collar
+428,ËïÎÄ,16,Male,Jilin,Employed,Married,Blue Collar
+429,ËÎÄş,37,Female,Sichuan,Employed,Married,White Collar
+430,ÁºÄÈ,37,Male,Guizhou,Employed,Single,Civil Servant
+431,¶¡Ö¾Ç¿,41,Female,Gansu,Employed,Single,White Collar
+432,ÁºÊçÀ¼,34,Female,Hebei,Employed,Married,Sales
+433,ÍõÓñÀ¼,16,Female,Macau,Employed,Married,White Collar
+434,ÍõæÃæÃ,17,Female,Xizang,Employed,Divorced,White Collar
+435,ÕÅÀ×,29,Male,Hunan,Freelance,Single,Blue Collar
+436,¹¨»¶,16,Female,Gansu,Freelance,Divorced,Sales
+437,ÑîÀö,36,Female,Beijing,Employed,Divorced,Sales
+438,ÕÅ¼Ñ,39,Female,Jiangsu,Employed,Single,White Collar
+439,Ëï´ºÃ·,45,Male,Heilongjiang,Freelance,Single,Teacher
+440,º«ĞãÕä,34,Female,Xizang,Freelance,Single,White Collar
+441,ÁõÈÙ,35,Female,Liaoning,Employed,Single,Teacher
+442,ºØÓñ,31,Female,Hebei,Freelance,Married,White Collar
+443,ÑîÏë,31,Female,Xizang,Employed,Married,White Collar
+444,Àî»Ô,38,Female,Heilongjiang,Employed,Married,White Collar
+445,½¯½¨,28,Female,Jiangsu,Employed,Married,Blue Collar
+446,ÌÆÑÒ,40,Male,Sichuan,Employed,Single,Blue Collar
+447,ÅíÑÒ,16,Female,Ningxia,Employed,Married,White Collar
+448,Ğí²©,20,Female,Gansu,Employed,Single,Teacher
+449,Àî¹ğÖ¥,41,Male,Xizang,Employed,Married,White Collar
+450,ºØÁÕ,19,Male,Zhejiang,Freelance,Single,White Collar
+451,ºúÏ¼,38,Male,Guangdong,Freelance,Single,White Collar
+452,ÀîæÃ,44,Female,Jiangsu,Freelance,Divorced,Blue Collar
+453,ÂŞ·ïÓ¢,35,Male,Tianjin,Freelance,Divorced,Sales
+454,µË½¨¹ú,36,Male,Chongqing,Freelance,Single,Blue Collar
+455,ÅíÓî,34,Male,Hainan,Employed,Married,White Collar
+456,ÖÜÀö»ª,41,Female,Guangxi,Freelance,Single,White Collar
+457,ÀîÑó,30,Female,Hebei,Freelance,Single,Blue Collar
+458,Ãç´ºÃ·,20,Female,Neimeng,Employed,Married,White Collar
+459,ÁõöÎ,45,Male,Beijing,Employed,Single,Civil Servant
+460,ÕÔĞÀ,24,Male,Taiwan,Employed,Single,Blue Collar
+461,ÍõÇ¿,38,Male,Jiangsu,Employed,Divorced,Sales
+462,Àî½Ü,22,Male,Shandong,Freelance,Married,Civil Servant
+463,À¶è´,45,Female,Neimeng,Freelance,Married,Blue Collar
+464,¹ùĞã·¼,33,Male,Guangdong,Freelance,Single,White Collar
+465,ÍõĞãÔÆ,30,Male,Jilin,Freelance,Single,Teacher
+466,ĞìÑŞ,41,Female,Hong Kong,Employed,Married,White Collar
+467,ÉòÏ¼,30,Male,Henan,Freelance,Married,Blue Collar
+468,ÖÜÊçÕä,29,Male,Shaanxi,Employed,Divorced,Sales
+469,Êø½¨Æ½,16,Male,Xizang,Freelance,Single,Blue Collar
+470,·½Åô,25,Female,Shaanxi,Freelance,Single,Blue Collar
+471,³Â·ïÓ¢,38,Male,Liaoning,Employed,Single,White Collar
+472,ÀîÃô,17,Male,Zhejiang,Employed,Single,Teacher
+473,ÕÅ¾²,44,Male,Yunnan,Freelance,Single,White Collar
+474,×ŞÓñÕä,38,Male,Jiangxi,Freelance,Married,White Collar
+475,ÂÀ¶«,24,Male,Anhui,Employed,Married,Teacher
+476,ÖìÙ»,19,Female,Neimeng,Employed,Married,Blue Collar
+477,ÌÀöÎ,16,Female,Gansu,Freelance,Single,Blue Collar
+478,Íõ¿­,17,Female,Guizhou,Employed,Single,Teacher
+479,ÉòĞ¡ºì,20,Male,Hebei,Employed,Married,Civil Servant
+480,À×Ñ©,43,Male,Neimeng,Freelance,Married,Civil Servant
+481,ºÎÃô,20,Male,Shandong,Employed,Married,Blue Collar
+482,ÕÔÏ¼,29,Male,Neimeng,Employed,Married,Teacher
+483,ÁõÅô,37,Female,Jiangsu,Employed,Single,Blue Collar
+484,³ÙË§,44,Female,Taiwan,Freelance,Divorced,White Collar
+485,ÍõĞ¡ºì,27,Female,Zhejiang,Freelance,Single,Sales
+486,³ÌÑô,36,Male,Heilongjiang,Employed,Single,White Collar
+487,Àî¾ü,16,Male,Beijing,Employed,Married,White Collar
+488,ÑîÁú,21,Male,Jiangsu,Employed,Married,White Collar
+489,ÖÜÎÄ,17,Male,Sichuan,Freelance,Single,Teacher
+490,ËïÇ¿,19,Female,Hunan,Employed,Single,Civil Servant
+491,ÑîĞãÃ·,28,Male,Hubei,Employed,Single,Sales
+492,ÕÅÓñ»ª,42,Male,Neimeng,Employed,Single,White Collar
+493,Íõéª,24,Male,Jilin,Employed,Married,Civil Servant
+494,ÍõöÎ,17,Male,Xinjiang,Freelance,Married,Sales
+495,ÑÏ¹ğÕä,28,Male,Qinghai,Employed,Married,White Collar
+496,ÍõÔÆ,37,Male,Beijing,Employed,Divorced,White Collar
+497,»ÆÀÚ,32,Male,Fujian,Employed,Married,Blue Collar
+498,ºú¶¬Ã·,19,Male,Jiangsu,Employed,Single,Blue Collar
+499,ºúéª,23,Male,Xizang,Employed,Divorced,Teacher
+500,Áú»Û,18,Male,Tianjin,Employed,Married,Sales
+501,¶Îµ¤µ¤,24,Female,Jiangsu,Freelance,Single,White Collar
+502,ÁõÁú,24,Female,Sichuan,Freelance,Single,Civil Servant
+503,ÁºÀ¼Ó¢,28,Female,Neimeng,Employed,Single,White Collar
+504,ÍõÑî,27,Male,Jilin,Freelance,Single,White Collar
+505,ÕÔµ¤,23,Male,Tianjin,Freelance,Married,White Collar
+506,Ğ»Ù»,42,Female,Shanghai,Freelance,Married,Blue Collar
+507,¶¡ÎÄ,17,Male,Hunan,Freelance,Divorced,White Collar
+508,ÉÛÑî,29,Male,Heilongjiang,Employed,Married,White Collar
+509,ÎâÃ÷,16,Male,Ningxia,Employed,Married,White Collar
+510,Ô­·å,18,Female,Xizang,Employed,Single,Civil Servant
+511,×£·¼,20,Female,Beijing,Employed,Single,Blue Collar
+512,Ò¶ºìÃ·,16,Male,Hong Kong,Freelance,Married,White Collar
+513,ÕÔÁú,31,Male,Hebei,Employed,Married,Sales
+514,ÕÅÓ¢,20,Female,Shandong,Employed,Married,White Collar
+515,·½ĞãÓ¢,22,Male,Guangxi,Employed,Married,Sales
+516,µËöÎ,38,Male,Liaoning,Employed,Single,White Collar
+517,Àî½¡,37,Male,Hong Kong,Employed,Married,Civil Servant
+518,ÑÖÀö,26,Male,Fujian,Freelance,Married,White Collar
+519,ÌÀ½¨¾ü,41,Female,Shandong,Freelance,Married,Blue Collar
+520,ÕÅÈÙ,23,Female,Heilongjiang,Freelance,Married,Sales
+521,Â³éª,41,Female,Hebei,Employed,Married,Teacher
+522,µË±ø,17,Female,Guizhou,Employed,Married,Teacher
+523,¶¡¶¬Ã·,34,Male,Shanxi,Employed,Married,White Collar
+524,¾ÏÄş,45,Female,Qinghai,Freelance,Single,White Collar
+525,Ëïºì,26,Male,Shaanxi,Freelance,Single,Civil Servant
+526,ÇØ»¶,45,Male,Yunnan,Freelance,Single,White Collar
+527,ÕÅ¾ü,31,Female,Chongqing,Employed,Married,Teacher
+528,Ì·Ñî,23,Male,Xizang,Employed,Married,White Collar
+529,ÍõÑÒ,45,Female,Beijing,Employed,Single,White Collar
+530,³ÂÌÎ,42,Male,Zhejiang,Employed,Single,White Collar
+531,Àî²©,30,Male,Jilin,Employed,Divorced,White Collar
+532,ÏÄÎ°,30,Female,Fujian,Employed,Single,White Collar
+533,¹«ÌÎ,44,Male,Beijing,Freelance,Married,Blue Collar
+534,ËÎÊçÀ¼,34,Female,Guangxi,Employed,Divorced,White Collar
+535,ºÎ´ºÃ·,25,Female,Yunnan,Employed,Married,White Collar
+536,ÁõÀ¼Ó¢,36,Female,Qinghai,Employed,Married,Blue Collar
+537,ÀîÈÙ,30,Female,Sichuan,Employed,Married,White Collar
+538,º«¹ğÖ¥,44,Female,Hubei,Employed,Married,Teacher
+539,ÕÅÙ»,22,Female,Xizang,Employed,Single,White Collar
+540,ÑîÀÚ,34,Male,Qinghai,Employed,Single,White Collar
+541,ĞÜ·ïÓ¢,25,Female,Xizang,Employed,Divorced,Blue Collar
+542,Ò¶À¼Ó¢,43,Male,Jilin,Employed,Married,White Collar
+543,ÍõĞÀ,43,Male,Macau,Employed,Divorced,White Collar
+544,ÂÀĞã·¼,39,Male,Shandong,Freelance,Divorced,Teacher
+545,Ğ»³É,17,Male,Chongqing,Freelance,Divorced,White Collar
+546,ÌÆÁÖ,38,Female,Chongqing,Freelance,Married,Sales
+547,·®ÊçÓ¢,18,Male,Guangdong,Employed,Divorced,White Collar
+548,ºÎ½¡,28,Male,Fujian,Employed,Single,Blue Collar
+549,µËÎÄ,44,Male,Qinghai,Employed,Married,White Collar
+550,¸ßÌÎ,41,Male,Beijing,Employed,Single,White Collar
+551,¾ÏÀö,34,Male,Sichuan,Employed,Divorced,White Collar
+552,ÍõĞã»ª,33,Male,Guizhou,Employed,Single,White Collar
+553,Íõ´ºÃ·,27,Female,Guizhou,Employed,Married,White Collar
+554,ÂŞ»ª,31,Female,Hunan,Freelance,Married,White Collar
+555,ÖÜ¹ğÖ¥,26,Male,Jiangxi,Employed,Married,White Collar
+556,ÇÇÓ¢,42,Male,Guizhou,Employed,Single,White Collar
+557,Ñî·«,43,Male,Gansu,Employed,Married,Sales
+558,ÀîĞ¡ºì,19,Female,Hubei,Employed,Married,Blue Collar
+559,ÀîºìÃ·,32,Male,Beijing,Employed,Divorced,White Collar
+560,Çü´ºÃ·,18,Female,Guizhou,Freelance,Single,Sales
+561,ÍõÃ·,34,Male,Tianjin,Employed,Single,White Collar
+562,¼Ö½¡,37,Male,Guangxi,Employed,Single,White Collar
+563,ÁõÓ¨,35,Female,Shandong,Freelance,Married,Civil Servant
+564,Ôø¾ê,35,Female,Beijing,Employed,Single,White Collar
+565,Áõ³¬,20,Male,Fujian,Employed,Married,White Collar
+566,ÕÂ½¨Æ½,17,Female,Liaoning,Employed,Single,Blue Collar
+567,ÕÅÀ¼Ó¢,42,Male,Hong Kong,Employed,Single,Sales
+568,ÕÔ³É,23,Female,Guangxi,Freelance,Married,Blue Collar
+569,Ò¶è¤,32,Male,Ningxia,Employed,Married,Blue Collar
+570,³ÂÆ½,32,Male,Fujian,Employed,Married,Civil Servant
+571,ÁÖè¤,43,Male,Hainan,Freelance,Married,White Collar
+572,ÑÏ¶«,19,Female,Ningxia,Employed,Single,Blue Collar
+573,¶¹Äş,40,Male,Jiangsu,Employed,Married,White Collar
+574,´÷ÇÙ,36,Female,Guizhou,Employed,Single,White Collar
+575,»Æ³¿,45,Male,Heilongjiang,Employed,Married,White Collar
+576,ÕÅÀö,44,Female,Shaanxi,Employed,Single,Civil Servant
+577,Ğí½¨¾ü,43,Male,Zhejiang,Employed,Single,Teacher
+578,ÇØ¿¡,43,Male,Yunnan,Employed,Married,Sales
+579,ÕÅĞ¡ºì,21,Female,Chongqing,Employed,Single,White Collar
+580,Íõ³¿,22,Male,Hainan,Employed,Married,Teacher
+581,Ì·¹ğÈÙ,30,Male,Xizang,Employed,Married,Teacher
+582,´ŞÓñ»ª,17,Male,Shandong,Employed,Single,Civil Servant
+583,Òü´ºÃ·,33,Female,Yunnan,Freelance,Single,Sales
+584,ÍõÁø,21,Female,Xinjiang,Employed,Married,Teacher
+585,ÀîÑ©Ã·,28,Female,Shaanxi,Employed,Divorced,White Collar
+586,×¯·ïÓ¢,21,Male,Guangxi,Employed,Single,White Collar
+587,³Â½¨Æ½,20,Female,Shandong,Freelance,Single,Blue Collar
+588,ÖÜ¾²,40,Female,Jiangsu,Employed,Married,White Collar
+589,³Â¿­,38,Female,Sichuan,Freelance,Single,Sales
+590,ºÂºìÃ·,33,Female,Anhui,Freelance,Married,White Collar
+591,ÍôÃô,22,Female,Anhui,Employed,Divorced,Teacher
+592,Íô²¨,17,Female,Hubei,Freelance,Single,Sales
+593,½ª½¨¾ü,41,Male,Hunan,Employed,Married,White Collar
+594,ÀîÑà,18,Male,Fujian,Employed,Single,White Collar
+595,ºúºìÃ·,29,Female,Taiwan,Freelance,Married,White Collar
+596,³ÂÑ©Ã·,45,Female,Heilongjiang,Freelance,Single,White Collar
+597,Äş½¨¾ü,43,Female,Yunnan,Freelance,Divorced,Teacher
+598,ÍõÃ÷,35,Female,Hainan,Employed,Single,White Collar
+599,ÍõĞãÃ·,35,Male,Heilongjiang,Freelance,Single,White Collar
+600,ÀîÓî,22,Male,Sichuan,Employed,Divorced,Civil Servant
+601,ÖìÑô,25,Male,Macau,Employed,Married,White Collar
+602,³ÂÙ»,40,Male,Qinghai,Employed,Married,Sales
+603,ÇñÁá,23,Female,Liaoning,Freelance,Married,White Collar
+604,³ÂÃ÷,31,Female,Sichuan,Freelance,Married,White Collar
+605,´÷ºìÏ¼,35,Female,Heilongjiang,Employed,Divorced,Civil Servant
+606,ÍõÓñÓ¢,21,Male,Zhejiang,Freelance,Single,Blue Collar
+607,ÍõĞÀ,34,Female,Heilongjiang,Employed,Single,White Collar
+608,Ò¢Ğã·¼,22,Male,Tianjin,Employed,Married,Civil Servant
+609,Ï¯·ïÀ¼,38,Female,Chongqing,Employed,Single,Teacher
+610,Àî±ø,45,Female,Henan,Employed,Single,White Collar
+611,Àî·É,16,Male,Henan,Employed,Married,Sales
+612,ÑîÑŞ,24,Male,Shanxi,Employed,Married,White Collar
+613,ÀîÑà,29,Male,Fujian,Freelance,Single,White Collar
+614,ÕÅ»Ô,37,Male,Guangxi,Employed,Married,Teacher
+615,Åí¹ğÀ¼,27,Male,Hainan,Employed,Married,White Collar
+616,Ô¬Àö,16,Male,Qinghai,Employed,Married,Blue Collar
+617,ÁõÈÙ,18,Male,Henan,Freelance,Married,Sales
+618,Áº»ª,18,Male,Tianjin,Employed,Married,Civil Servant
+619,µËÈğ,26,Male,Guangxi,Employed,Single,White Collar
+620,Àî»¶,23,Female,Guangdong,Employed,Single,White Collar
+621,¸ßè´,17,Female,Henan,Freelance,Single,Blue Collar
+622,»ÆÅô,19,Male,Neimeng,Employed,Single,Sales
+623,·¶³¬,27,Male,Xinjiang,Employed,Single,White Collar
+624,ÁõĞã»ª,20,Female,Beijing,Freelance,Married,White Collar
+625,ÍÀºì,35,Male,Hong Kong,Employed,Divorced,White Collar
+626,ÖÜ½¨Æ½,18,Male,Jiangxi,Employed,Married,Blue Collar
+627,ÕÅÆ½,39,Female,Chongqing,Freelance,Married,White Collar
+628,ÂíÀ¼Ó¢,36,Female,Anhui,Employed,Single,Teacher
+629,ÀîÈÙ,28,Female,Qinghai,Employed,Married,White Collar
+630,Ëï³©,34,Female,Macau,Freelance,Married,Blue Collar
+631,Îâ¾ê,43,Female,Hebei,Employed,Single,White Collar
+632,ÀîÓñÃ·,31,Female,Guangxi,Employed,Married,White Collar
+633,¶Å¹ğÖ¥,41,Female,Neimeng,Employed,Single,White Collar
+634,¹ù²¨,27,Female,Hainan,Employed,Married,Blue Collar
+635,³Â±ò,33,Male,Shandong,Employed,Married,White Collar
+636,ÀîÁÕ,29,Female,Beijing,Freelance,Married,White Collar
+637,ñû·ïÀ¼,26,Male,Jilin,Freelance,Married,Blue Collar
+638,ÁõÓñÕä,24,Female,Jilin,Employed,Married,Blue Collar
+639,ËïÊçÓ¢,32,Female,Yunnan,Freelance,Married,Sales
+640,ÍõĞÀ,44,Male,Zhejiang,Employed,Single,Sales
+641,ºúºìÏ¼,44,Male,Anhui,Employed,Married,Teacher
+642,ÕÅÓñÓ¢,40,Female,Jilin,Employed,Single,Blue Collar
+643,ÍõÈÙ,38,Male,Hebei,Freelance,Single,White Collar
+644,Óà²¨,35,Male,Tianjin,Freelance,Single,Blue Collar
+645,ºÎ¾²,31,Male,Chongqing,Employed,Married,Sales
+646,ºúË§,36,Female,Shaanxi,Freelance,Married,Sales
+647,¶­½¨Æ½,26,Male,Sichuan,Employed,Single,Civil Servant
+648,³ÂÑÒ,36,Female,Fujian,Employed,Single,White Collar
+649,¶­ÊçÕä,42,Male,Jiangsu,Employed,Divorced,Teacher
+650,Íõ»ª,39,Female,Tianjin,Employed,Single,Blue Collar
+651,Íõ¹ğÈÙ,24,Male,Guangdong,Employed,Married,White Collar
+652,ÕÅ¿­,43,Male,Neimeng,Employed,Single,Blue Collar
+653,ÌÕÏë,29,Male,Hubei,Employed,Married,White Collar
+654,ÔÀĞãÕä,17,Female,Liaoning,Freelance,Married,White Collar
+655,Ñî·¼,34,Male,Ningxia,Employed,Married,White Collar
+656,ÆîÁú,20,Female,Henan,Employed,Single,Civil Servant
+657,ÀîĞã»ª,32,Female,Hubei,Freelance,Single,Sales
+658,¸ß³¬,39,Male,Neimeng,Employed,Married,White Collar
+659,¹ù½Ü,28,Male,Shandong,Employed,Single,White Collar
+660,½­ÓñÓ¢,26,Female,Chongqing,Employed,Married,Blue Collar
+661,ÕÅ½¨Æ½,19,Male,Zhejiang,Employed,Married,White Collar
+662,ÀîĞãÀ¼,18,Male,Henan,Employed,Single,White Collar
+663,Öì·ïÓ¢,16,Male,Jiangsu,Employed,Married,White Collar
+664,ºÂè´,37,Female,Ningxia,Employed,Single,Civil Servant
+665,¹ØĞãÈÙ,21,Female,Shanxi,Freelance,Divorced,White Collar
+666,ËÎ»¶,44,Female,Gansu,Employed,Married,White Collar
+667,ÁõÀöÀö,42,Male,Hebei,Freelance,Single,White Collar
+668,ÍõÇ¿,20,Male,Macau,Employed,Single,White Collar
+669,¸µÑô,20,Male,Xizang,Freelance,Single,Teacher
+670,Áº·É,44,Male,Jiangsu,Freelance,Single,White Collar
+671,ÄªÑó,40,Male,Sichuan,Employed,Married,Sales
+672,½¯¶¬Ã·,44,Male,Jilin,Freelance,Divorced,Sales
+673,ºÎ²©,32,Male,Xinjiang,Employed,Single,Civil Servant
+674,ºî»Ô,21,Female,Ningxia,Employed,Divorced,Civil Servant
+675,»ÆÊçÀ¼,16,Female,Liaoning,Employed,Single,White Collar
+676,ÕÅÆ¼,31,Female,Shanxi,Employed,Single,White Collar
+677,³ÂÑÒ,19,Male,Shanghai,Employed,Single,White Collar
+678,×óÃ÷,35,Female,Beijing,Employed,Married,White Collar
+679,ÁõÃô,25,Female,Heilongjiang,Freelance,Married,Teacher
+680,ºúÀö¾ê,42,Female,Ningxia,Employed,Divorced,White Collar
+681,º«ÔÆ,25,Female,Jiangxi,Freelance,Single,Blue Collar
+682,²ÜÊçÀ¼,29,Male,Qinghai,Employed,Married,White Collar
+683,èïÁÕ,16,Male,Jiangxi,Employed,Married,White Collar
+684,ÕÅÓ¨,30,Male,Qinghai,Employed,Single,Blue Collar
+685,Â¬Ë§,20,Male,Sichuan,Employed,Single,White Collar
+686,Áõ¹ğÓ¢,23,Female,Gansu,Employed,Married,White Collar
+687,×£±ø,26,Female,Guangxi,Employed,Married,White Collar
+688,Ò×·É,30,Male,Jilin,Employed,Single,Sales
+689,ÈÄ¾§,41,Female,Guangdong,Employed,Single,White Collar
+690,Â¬¹ğÖ¥,42,Male,Gansu,Employed,Single,Blue Collar
+691,ÖÜ±ó,41,Female,Heilongjiang,Freelance,Married,Civil Servant
+692,·ëÓÂ,22,Male,Shanghai,Employed,Married,White Collar
+693,ËÕ½Ü,36,Female,Fujian,Freelance,Married,Teacher
+694,Óà±ò,30,Female,Jiangsu,Employed,Married,White Collar
+695,ÌïÓ±,34,Male,Guangdong,Freelance,Single,White Collar
+696,»Æ·å,29,Male,Qinghai,Employed,Married,Blue Collar
+697,ºúÑà,39,Male,Beijing,Freelance,Married,White Collar
+698,ÁõÁÖ,25,Female,Hebei,Employed,Single,Teacher
+699,Íõ¹ğÕä,31,Female,Liaoning,Employed,Married,White Collar
+700,ÌÆÁÕ,16,Female,Anhui,Employed,Single,Civil Servant
+701,ÎºÑÒ,24,Male,Sichuan,Freelance,Single,Civil Servant
+702,Àî³¿,23,Male,Xinjiang,Employed,Married,White Collar
+703,»ÆÏë,20,Female,Jilin,Freelance,Married,White Collar
+704,ÁÖÓÂ,23,Male,Fujian,Employed,Single,White Collar
+705,Ğì·å,22,Female,Ningxia,Freelance,Single,White Collar
+706,ÁõÑô,37,Female,Liaoning,Employed,Married,Teacher
+707,ÀîÁø,32,Male,Jilin,Employed,Single,Sales
+708,ÁÖ²©,32,Male,Neimeng,Employed,Single,Civil Servant
+709,ÕÅÔÆ,21,Male,Shaanxi,Employed,Single,Teacher
+710,ĞìÏë,35,Female,Jiangxi,Freelance,Single,Sales
+711,ÅíºÆ,39,Female,Shaanxi,Freelance,Married,White Collar
+712,ĞÏÁÁ,37,Female,Qinghai,Employed,Divorced,White Collar
+713,ÎÂµ¤µ¤,25,Female,Ningxia,Freelance,Single,White Collar
+714,ÕÅÎ°,19,Male,Heilongjiang,Employed,Married,White Collar
+715,ÀîÑô,28,Male,Hebei,Employed,Single,Blue Collar
+716,ÇÇ½¨»ª,22,Male,Shanghai,Employed,Married,White Collar
+717,Â¦¿­,35,Female,Xizang,Freelance,Married,White Collar
+718,µËĞã·¼,20,Male,Beijing,Employed,Single,White Collar
+719,»ÆĞãÓ¢,41,Female,Guangxi,Employed,Married,White Collar
+720,·¶¸Õ,26,Male,Guizhou,Freelance,Married,Sales
+721,ÅËÇÙ,39,Male,Tianjin,Freelance,Single,Sales
+722,ÌÀæÃ,45,Female,Chongqing,Employed,Single,Blue Collar
+723,ĞìÓñÓ¢,35,Male,Sichuan,Employed,Married,White Collar
+724,ÅÌöÎ,36,Male,Fujian,Employed,Single,White Collar
+725,ÅËÈğ,36,Female,Fujian,Employed,Married,White Collar
+726,ÒóÎÄ,30,Male,Guizhou,Employed,Single,Blue Collar
+727,ÍõÀû,31,Female,Hunan,Employed,Married,Blue Collar
+728,¼ÖÏ¼,26,Female,Xizang,Freelance,Single,Civil Servant
+729,Ëï½à,34,Male,Liaoning,Employed,Married,Sales
+730,Îº·å,38,Male,Hubei,Employed,Divorced,Teacher
+731,ÉòÑ©,33,Female,Ningxia,Freelance,Married,Blue Collar
+732,¾Ï³¿,39,Male,Hubei,Freelance,Married,White Collar
+733,ËÕÁø,37,Male,Jiangxi,Employed,Single,White Collar
+734,ĞÜĞã·¼,18,Female,Macau,Employed,Married,Sales
+735,ÎºÏ¼,34,Male,Fujian,Employed,Single,White Collar
+736,Áõ³©,28,Female,Shanghai,Employed,Single,White Collar
+737,ÕÅÁú,17,Male,Tianjin,Employed,Married,White Collar
+738,Êæ½¨¹ú,33,Male,Ningxia,Employed,Single,Sales
+739,½ğ¹ğÀ¼,27,Female,Sichuan,Employed,Single,White Collar
+740,Ğìµ¤,38,Female,Xinjiang,Employed,Married,Sales
+741,ÀîĞÀ,21,Female,Neimeng,Employed,Married,Blue Collar
+742,Ñî½¨Æ½,26,Female,Xinjiang,Employed,Married,Civil Servant
+743,ÁõÃô,25,Female,Beijing,Employed,Married,Blue Collar
+744,Íõ»Ô,32,Female,Hainan,Employed,Single,White Collar
+745,ÀîĞãÀ¼,19,Female,Beijing,Employed,Single,White Collar
+746,ÁÖ½à,32,Male,Guangxi,Employed,Married,Blue Collar
+747,ÕÔ±ó,31,Female,Jiangxi,Employed,Married,White Collar
+748,ÍòÀ¼Ó¢,18,Female,Qinghai,Freelance,Single,White Collar
+749,Ñî³©,21,Female,Hong Kong,Employed,Single,Blue Collar
+750,ÁºÆ¼,37,Male,Shandong,Employed,Single,Civil Servant
+751,ÖÜ·É,19,Female,Neimeng,Employed,Divorced,White Collar
+752,ÕÅÓñÓ¢,38,Male,Shanghai,Freelance,Married,White Collar
+753,ÁÎ±ò,20,Male,Ningxia,Freelance,Married,White Collar
+754,ÀîÁÕ,28,Male,Fujian,Employed,Single,Sales
+755,ÕÔÅô,44,Female,Macau,Freelance,Single,Teacher
+756,Ìï¾§,27,Female,Beijing,Employed,Married,White Collar
+757,Ğ»ÊçÕä,40,Male,Hainan,Freelance,Married,White Collar
+758,ÀîĞãÕä,23,Female,Xizang,Employed,Married,Sales
+759,³Ìº£Ñà,29,Female,Ningxia,Employed,Married,Blue Collar
+760,Â¬ºì,44,Male,Qinghai,Employed,Single,White Collar
+761,ÕÅÁÁ,17,Female,Zhejiang,Freelance,Single,Blue Collar
+762,ºØ½Ü,20,Female,Taiwan,Employed,Married,Sales
+763,ÍõÆ¼,18,Male,Taiwan,Employed,Married,Sales
+764,½ğºìÏ¼,32,Female,Anhui,Employed,Married,Blue Collar
+765,Àî·ïÀ¼,24,Male,Fujian,Employed,Single,Civil Servant
+766,²ÌÀ¤,37,Female,Hubei,Employed,Married,White Collar
+767,Í¿´ºÃ·,16,Male,Hebei,Employed,Divorced,White Collar
+768,¹¬½à,43,Female,Macau,Employed,Divorced,White Collar
+769,ÀîÊçÕä,16,Male,Jilin,Employed,Married,Civil Servant
+770,ÁõÊçÕä,45,Male,Neimeng,Employed,Married,White Collar
+771,ÀîÓñÃ·,29,Male,Shanxi,Employed,Married,White Collar
+772,»ÆÇ¿,18,Male,Hunan,Employed,Single,Blue Collar
+773,ºÎÊç»ª,30,Male,Gansu,Employed,Divorced,White Collar
+774,²ÌĞãÀ¼,45,Female,Hebei,Employed,Single,White Collar
+775,¾ÏÑî,41,Male,Shandong,Freelance,Single,Civil Servant
+776,¶ÎÓ¨,41,Male,Shandong,Employed,Married,White Collar
+777,ÙÚöÎ,35,Male,Zhejiang,Employed,Married,Sales
+778,·½·ïÀ¼,42,Female,Anhui,Employed,Married,Sales
+779,Ä²Àû,28,Male,Guangdong,Freelance,Single,White Collar
+780,ÑÖÖ¾Ç¿,42,Male,Chongqing,Employed,Single,White Collar
+781,ÍõºìÃ·,40,Female,Jiangxi,Freelance,Single,White Collar
+782,ÑîÁú,25,Female,Jiangxi,Employed,Single,White Collar
+783,»Æ¶«,34,Female,Shanxi,Employed,Single,White Collar
+784,ÃÏ¹ğÈÙ,41,Male,Jilin,Employed,Married,Civil Servant
+785,ÁõÖ¾Ç¿,42,Female,Jiangxi,Employed,Single,White Collar
+786,ÖÜĞãÈÙ,23,Female,Shandong,Employed,Single,Teacher
+787,ËÕÇ¿,34,Male,Qinghai,Freelance,Divorced,White Collar
+788,ÂíÃô,25,Female,Xizang,Employed,Married,Civil Servant
+789,ÁõÎ°,27,Female,Guizhou,Employed,Married,White Collar
+790,Ñî¾²,44,Female,Beijing,Freelance,Single,Sales
+791,ÀîÁÁ,41,Female,Tianjin,Employed,Single,White Collar
+792,ÕÅÇÙ,33,Female,Macau,Employed,Single,Blue Collar
+793,Íô½¨,34,Female,Jiangsu,Employed,Single,White Collar
+794,ÀîÑî,34,Male,Liaoning,Freelance,Single,White Collar
+795,Áõ½Ü,45,Female,Shanxi,Employed,Married,White Collar
+796,ÍõÑÒ,31,Female,Xinjiang,Employed,Married,Sales
+797,Ñî·ïÀ¼,38,Male,Henan,Employed,Single,Sales
+798,Á·ĞÀ,19,Female,Beijing,Employed,Single,Blue Collar
+799,Ô¬ÓñÕä,37,Female,Liaoning,Employed,Single,White Collar
+800,½­½Ü,43,Male,Guizhou,Freelance,Married,Blue Collar
+801,Óàè´,40,Female,Shanxi,Employed,Single,Blue Collar
+802,²ÜÓñ,23,Female,Hebei,Employed,Single,Teacher
+803,ÖÜÁú,29,Female,Hong Kong,Freelance,Single,Teacher
+804,»ÆĞãÀ¼,22,Male,Guangdong,Freelance,Single,White Collar
+805,Áõ¿­,19,Male,Sichuan,Employed,Divorced,White Collar
+806,ÆÑ»Û,25,Female,Macau,Freelance,Single,Blue Collar
+807,ºúÓ±,24,Male,Guangxi,Employed,Single,White Collar
+808,Â«Ñó,25,Male,Sichuan,Employed,Married,Blue Collar
+809,°×¹ğÕä,30,Male,Jiangxi,Employed,Single,Civil Servant
+810,ÍõĞã»ª,35,Female,Hunan,Employed,Single,White Collar
+811,ÖìÁÕ,29,Female,Shanghai,Employed,Divorced,Teacher
+812,ÎâĞã»ª,19,Female,Zhejiang,Freelance,Single,White Collar
+813,Íõéª,42,Female,Shanghai,Freelance,Married,White Collar
+814,ÑÕ¾§,18,Female,Jiangsu,Employed,Divorced,Sales
+815,ÌÆ¹ğ·¼,16,Male,Ningxia,Employed,Married,Blue Collar
+816,ÅËÑÒ,17,Female,Shanghai,Freelance,Married,Blue Collar
+817,³ÂÃ·,45,Male,Taiwan,Freelance,Married,Sales
+818,»ÆÓñÃ·,16,Male,Shanxi,Employed,Married,White Collar
+819,Ñî½¨»ª,28,Male,Yunnan,Employed,Divorced,Teacher
+820,Ò¶Ë§,44,Male,Tianjin,Employed,Married,Teacher
+821,ÕÅÑó,28,Female,Hunan,Employed,Single,Civil Servant
+822,Ñî»¶,42,Male,Yunnan,Employed,Divorced,Blue Collar
+823,Ç®±ø,36,Male,Chongqing,Employed,Single,White Collar
+824,Ã«Ï¼,25,Male,Zhejiang,Employed,Married,Civil Servant
+825,ÍõºÆ,26,Male,Yunnan,Employed,Divorced,Teacher
+826,ºÎĞãÃ·,24,Female,Hubei,Freelance,Married,White Collar
+827,ÏÄÀ¤,24,Female,Jilin,Freelance,Married,Blue Collar
+828,ÁÎºì,21,Male,Taiwan,Employed,Married,White Collar
+829,Ñî·É,16,Male,Gansu,Employed,Divorced,White Collar
+830,ĞìÖ¾Ç¿,26,Male,Jilin,Employed,Single,Civil Servant
+831,Éò½ğ·ï,41,Female,Gansu,Freelance,Married,White Collar
+832,Áõ¶«,17,Male,Guangxi,Freelance,Single,White Collar
+833,ÑîĞãÈÙ,43,Male,Liaoning,Freelance,Single,Blue Collar
+834,ÑîÀ×,32,Female,Neimeng,Employed,Single,Blue Collar
+835,ÕÅ½ğ·ï,43,Female,Guizhou,Freelance,Single,Sales
+836,ÑôÁá,42,Female,Shaanxi,Employed,Single,Sales
+837,³Â¹ğÀ¼,16,Female,Fujian,Employed,Married,White Collar
+838,ÀîÙ»,29,Male,Liaoning,Employed,Single,White Collar
+839,ÁõÓñÃ·,37,Male,Shanxi,Employed,Married,Civil Servant
+840,Ê·Àò,41,Male,Sichuan,Employed,Single,White Collar
+841,ÔÀ»Û,26,Female,Zhejiang,Employed,Married,Teacher
+842,Ò¶è¤,22,Female,Chongqing,Employed,Single,White Collar
+843,ÁºÑ©Ã·,25,Male,Tianjin,Freelance,Divorced,Sales
+844,Î¤³É,27,Male,Fujian,Employed,Married,Blue Collar
+845,½­³¬,30,Female,Fujian,Employed,Married,White Collar
+846,ÕÔ¹ğÀ¼,44,Male,Beijing,Freelance,Married,Sales
+847,ÖÜÓî,35,Male,Shanxi,Employed,Married,Blue Collar
+848,ÕÅéª,33,Male,Hubei,Employed,Single,Blue Collar
+849,³Â·¼,21,Female,Guangxi,Employed,Single,Civil Servant
+850,ÇúÎ°,32,Female,Hubei,Freelance,Married,Sales
+851,Ò¦·å,36,Female,Beijing,Freelance,Single,White Collar
+852,ËÎ·ïÓ¢,42,Female,Hainan,Freelance,Married,Teacher
+853,ËïÊçÓ¢,18,Female,Shandong,Employed,Single,Sales
+854,ÓàÎÄ,31,Female,Heilongjiang,Freelance,Married,Sales
+855,×ŞÓ¢,41,Female,Liaoning,Employed,Single,White Collar
+856,Ê·¹ğ·¼,42,Female,Hunan,Freelance,Single,White Collar
+857,ºîºÆ,27,Female,Neimeng,Employed,Single,Blue Collar
+858,ÎâĞã·¼,38,Female,Heilongjiang,Employed,Single,White Collar
+859,Àî·ïÓ¢,44,Male,Hainan,Employed,Married,Sales
+860,ÕÅÓñ,28,Female,Hunan,Employed,Married,White Collar
+861,Àîº£Ñà,16,Female,Jiangsu,Freelance,Single,Blue Collar
+862,»ô´ºÃ·,28,Female,Anhui,Employed,Divorced,Blue Collar
+863,ÕÅÇÙ,17,Male,Liaoning,Employed,Married,Sales
+864,µÔ½à,39,Male,Hubei,Employed,Single,White Collar
+865,Íõ½¨,23,Male,Shanghai,Freelance,Single,White Collar
+866,ÁõÑÒ,42,Male,Zhejiang,Freelance,Divorced,Teacher
+867,Áõ½¨»ª,36,Female,Tianjin,Employed,Married,White Collar
+868,ÍõÓñÀ¼,31,Male,Zhejiang,Employed,Divorced,White Collar
+869,ÌÆÈğ,27,Male,Shanghai,Employed,Single,White Collar
+870,·½»ª,23,Male,Hebei,Employed,Single,Blue Collar
+871,ĞÜÓñ»ª,45,Female,Taiwan,Freelance,Married,White Collar
+872,»Æ·ïÓ¢,27,Male,Hubei,Employed,Married,White Collar
+873,Ç®ÓñÀ¼,44,Male,Sichuan,Freelance,Married,White Collar
+874,ÀîÑî,24,Male,Shandong,Freelance,Single,Blue Collar
+875,Ğ»ÔÆ,19,Male,Anhui,Freelance,Married,Teacher
+876,Ïôµ¤µ¤,22,Male,Hunan,Employed,Single,White Collar
+877,ÀîÇÙ,18,Male,Hunan,Employed,Single,Blue Collar
+878,½¯¹ğÏã,45,Female,Shandong,Employed,Single,White Collar
+879,ÎâÆ½,20,Male,Gansu,Employed,Divorced,Blue Collar
+880,³ÌÅô,45,Male,Chongqing,Employed,Single,Civil Servant
+881,ÁõÓñ»ª,20,Male,Shanxi,Employed,Married,White Collar
+882,·ëÁÕ,38,Female,Xizang,Employed,Married,White Collar
+883,Ö£¹ğÓ¢,19,Male,Xizang,Employed,Married,Blue Collar
+884,ÁõÀö»ª,39,Male,Shanxi,Employed,Married,White Collar
+885,»ÆÑÒ,30,Female,Tianjin,Employed,Single,Teacher
+886,ÕÅ¶¬Ã·,37,Male,Henan,Freelance,Single,Blue Collar
+887,´÷·ïÓ¢,42,Male,Shaanxi,Employed,Married,White Collar
+888,ÎÄ¹ğ»¨,40,Female,Guangxi,Freelance,Married,White Collar
+889,°¬·«,28,Female,Ningxia,Freelance,Married,Sales
+890,»Æè¤,23,Male,Beijing,Employed,Divorced,Civil Servant
+891,ÎäºìÏ¼,36,Male,Qinghai,Employed,Divorced,White Collar
+892,¹ùöÎ,42,Female,Chongqing,Employed,Married,Teacher
+893,´÷·¼,26,Female,Hebei,Freelance,Single,White Collar
+894,´ŞÆ½,19,Male,Macau,Employed,Married,Sales
+895,³ÂÓñÃ·,32,Female,Shanxi,Employed,Married,White Collar
+896,½ğÌÎ,26,Male,Shanghai,Employed,Single,White Collar
+897,ÕÅ»Û,42,Female,Shanghai,Employed,Married,White Collar
+898,¹Èµ¤µ¤,36,Male,Tianjin,Employed,Single,White Collar
+899,ÕÅÑà,42,Male,Hunan,Employed,Married,Teacher
+900,ÉÛµ¤,23,Male,Shandong,Freelance,Married,Civil Servant
+901,½¯éª,29,Female,Hunan,Employed,Married,White Collar
+902,Äş»¶,35,Male,Shanxi,Employed,Single,White Collar
+903,Ëïº£Ñà,37,Female,Heilongjiang,Freelance,Married,Blue Collar
+904,½¯Áá,40,Male,Tianjin,Employed,Single,Blue Collar
+905,ÀîÏë,38,Male,Yunnan,Employed,Single,White Collar
+906,ÕÅ±ø,28,Female,Heilongjiang,Employed,Single,White Collar
+907,ÕÅÊçÕä,37,Female,Hubei,Employed,Married,Blue Collar
+908,±öÀû,26,Female,Henan,Employed,Married,Civil Servant
+909,ÑîĞã·¼,40,Female,Hubei,Employed,Single,Blue Collar
+910,ÁºÃô,28,Female,Guangxi,Freelance,Married,White Collar
+911,²Ü·ïÓ¢,41,Male,Xinjiang,Employed,Single,Civil Servant
+912,èï½¡,20,Female,Taiwan,Employed,Married,Civil Servant
+913,µó²¨,43,Male,Taiwan,Freelance,Married,Blue Collar
+914,¹¨ĞãÓ¢,22,Female,Hubei,Employed,Married,Blue Collar
+915,ÁõĞã·¼,32,Male,Heilongjiang,Employed,Single,White Collar
+916,ºÎºì,27,Male,Liaoning,Freelance,Married,White Collar
+917,ÕÅÓ¢,21,Female,Yunnan,Freelance,Married,Sales
+918,ÕÅ¹ğÖ¥,45,Male,Zhejiang,Employed,Married,White Collar
+919,ÁÎĞã»ª,44,Female,Shanxi,Employed,Single,White Collar
+920,Íõè´,37,Female,Guangdong,Freelance,Married,Blue Collar
+921,Ğ»¹ğÈÙ,16,Male,Fujian,Freelance,Divorced,Civil Servant
+922,¶Å·ïÀ¼,39,Male,Jilin,Freelance,Married,White Collar
+923,Ñî½¨¾ü,29,Male,Guangxi,Employed,Married,White Collar
+924,ÀîÆ¼,35,Male,Taiwan,Employed,Married,White Collar
+925,Àîº£Ñà,33,Female,Jilin,Employed,Divorced,Civil Servant
+926,Áõ¸Õ,29,Female,Gansu,Employed,Single,Blue Collar
+927,ÖÜĞãÕä,39,Male,Jiangsu,Employed,Single,White Collar
+928,ÂŞÁÖ,20,Female,Qinghai,Employed,Married,White Collar
+929,ÌïĞã»ª,18,Male,Macau,Employed,Married,White Collar
+930,³Âéª,16,Female,Zhejiang,Freelance,Married,Blue Collar
+931,ÍõÃ·,23,Male,Shaanxi,Freelance,Married,Blue Collar
+932,²ÜĞã·¼,41,Female,Beijing,Freelance,Married,White Collar
+933,Áõ¶«,26,Male,Beijing,Freelance,Married,Sales
+934,Àî¹ğ»¨,32,Female,Jiangsu,Employed,Married,White Collar
+935,»Æ¶¬Ã·,30,Male,Shanxi,Employed,Married,Blue Collar
+936,¹®æÃ,37,Male,Yunnan,Employed,Married,Blue Collar
+937,³ÂöÎ,25,Female,Xinjiang,Employed,Married,Civil Servant
+938,ÔøÓñÓ¢,39,Female,Jilin,Freelance,Single,Teacher
+939,ÕÅéª,45,Male,Shanxi,Employed,Divorced,Blue Collar
+940,ÈÎ¹ğÖ¥,19,Male,Jiangxi,Employed,Single,White Collar
+941,Ò¶è´,43,Male,Guizhou,Freelance,Single,White Collar
+942,ÁºæÃ,20,Female,Anhui,Employed,Single,Blue Collar
+943,³ÂÓî,26,Male,Guangdong,Employed,Single,Blue Collar
+944,Áú¾ü,43,Male,Guizhou,Freelance,Single,White Collar
+945,ÌÆ½à,30,Female,Ningxia,Employed,Married,White Collar
+946,ÌÆ¸Õ,36,Male,Ningxia,Employed,Married,Civil Servant
+947,ÕÅÁÖ,38,Male,Anhui,Employed,Married,Civil Servant
+948,Àî¼Ñ,44,Male,Ningxia,Freelance,Married,Sales
+949,Öì¹ğÓ¢,24,Male,Shaanxi,Freelance,Married,White Collar
+950,Íõ¹ğ»¨,42,Female,Ningxia,Employed,Married,Teacher
+951,º«Ïë,18,Male,Shanghai,Freelance,Married,Civil Servant
+952,ÏôÀö»ª,21,Female,Tianjin,Employed,Single,Blue Collar
+953,ÀîÓñ,41,Male,Guizhou,Freelance,Married,Sales
+954,¶¼Ñà,40,Male,Zhejiang,Freelance,Single,Civil Servant
+955,Íõ¸Õ,25,Female,Jiangxi,Employed,Single,Sales
+956,¶­Ğñ,18,Female,Neimeng,Employed,Single,Sales
+957,Àî¼Ñ,44,Female,Shanghai,Freelance,Single,Blue Collar
+958,ÀîÓ¢,38,Female,Ningxia,Employed,Married,Blue Collar
+959,ĞÜÀö,37,Male,Zhejiang,Freelance,Married,White Collar
+960,²Ü¿­,42,Male,Ningxia,Employed,Married,Civil Servant
+961,µ¥æÃæÃ,21,Male,Guangxi,Employed,Married,White Collar
+962,ÍõĞãÕä,44,Male,Taiwan,Freelance,Single,White Collar
+963,µË½¨,20,Female,Heilongjiang,Freelance,Divorced,White Collar
+964,ÍõÖ¾Ç¿,17,Male,Jiangsu,Employed,Married,White Collar
+965,ÕÅÊçÓ¢,42,Male,Ningxia,Employed,Married,White Collar
+966,ÈÄºÆ,24,Female,Qinghai,Employed,Single,White Collar
+967,·½ÎÄ,22,Female,Tianjin,Employed,Single,White Collar
+968,ºØÓî,22,Female,Heilongjiang,Employed,Married,Blue Collar
+969,¹ùÑ©,24,Female,Hebei,Freelance,Single,Teacher
+970,¸Ê¿­,26,Male,Jilin,Freelance,Married,White Collar
+971,Ğ»ºÆ,17,Male,Chongqing,Employed,Single,Teacher
+972,Ëïè¤,36,Male,Hubei,Employed,Married,White Collar
+973,Ïô·ïÓ¢,33,Male,Anhui,Employed,Married,Sales
+974,Îâ´ºÃ·,19,Female,Henan,Employed,Divorced,White Collar
+975,Àî·ïÀ¼,26,Female,Henan,Employed,Single,White Collar
+976,ÁõÁÕ,28,Female,Guangdong,Freelance,Single,White Collar
+977,Íõ½Ü,17,Male,Xinjiang,Freelance,Married,White Collar
+978,ÎâÓñ,31,Male,Shaanxi,Freelance,Married,Teacher
+979,ºîÓñÀ¼,36,Female,Henan,Employed,Single,White Collar
+980,Îâ½ğ·ï,34,Female,Yunnan,Freelance,Married,Sales
+981,Ïô³É,17,Male,Fujian,Employed,Married,White Collar
+982,Ñî²©,28,Male,Shandong,Employed,Married,White Collar
+983,Â¬Ó±,19,Female,Heilongjiang,Employed,Married,Teacher
+984,Ğ»Óñ,36,Male,Shanxi,Employed,Single,White Collar
+985,½­ºÆ,44,Female,Hunan,Freelance,Married,Blue Collar
+986,Á®·«,35,Female,Liaoning,Employed,Married,Civil Servant
+987,ÕÅ³É,30,Female,Shandong,Employed,Divorced,White Collar
+988,¹¬ÁÕ,27,Female,Xizang,Employed,Single,Sales
+989,ĞìÑó,43,Female,Guangdong,Freelance,Married,White Collar
+990,ºÎ¿¡,43,Female,Ningxia,Employed,Single,Civil Servant
+991,ËÎË§,34,Female,Liaoning,Freelance,Single,White Collar
+992,Ğì¾ê,22,Male,Guizhou,Employed,Married,Teacher
+993,·¶Óñ,23,Male,Shanxi,Employed,Single,Blue Collar
+994,Â¬ÓÂ,16,Male,Gansu,Employed,Single,White Collar
+995,ÓàĞãÀ¼,28,Female,Taiwan,Employed,Married,Civil Servant
+996,Öì½¨¹ú,40,Male,Hebei,Employed,Single,White Collar
+997,ÕÅÈğ,34,Male,Fujian,Employed,Divorced,Sales
+998,Ñîéª,33,Female,Fujian,Freelance,Single,White Collar
+999,ÀîÇ¿,20,Male,Neimeng,Employed,Single,White Collar

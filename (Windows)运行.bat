@@ -1,0 +1,1 @@
+python .\movies-20240517\Movies_Recommend-master\manage.py runserver 0.0.0.0:8000

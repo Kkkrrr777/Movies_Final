@@ -1,0 +1,4 @@
+Django==3.2.10
+numpy==1.16.1
+PyMySQL==1.0.2
+scikit_learn==0.20.2

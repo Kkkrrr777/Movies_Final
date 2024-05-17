@@ -1,0 +1,162 @@
+{% extends 'movie/base.html' %} {% block content %}
+<style>
+  .item {
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0 25px 40px 0;
+    width: 122px;
+  }
+  .item:hover {
+    color: white !important;
+  }
+  .item .poster_div {
+    overflow: hidden;
+    position: relative;
+  }
+  .poster_div img {
+    width: 122px;
+    height: 174px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .poster_div .rating {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #48c4ebb8;
+    color: white;
+    padding: 4px 10px;
+  }
+
+  li {
+    height: 45px;
+    width: 115px;
+  }
+  #search-input {
+    width: 400px;
+    height: 50px;
+    line-heightt: 50px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    border-radius: 40px;
+    background: #777777;
+    color: white;
+  }
+</style>
+<!--展示电影图片用-->
+<div class="container">
+  <h2 class="text-white text-center text-[24px]">SEARCH YOUR FAVOURITE</h2>
+  <div class="flex justify-center mt-[80px] mb-[50px]">
+    <form action="{% url 'movie:search' %}" method="get">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search for movies"
+          aria-label="Search for movies"
+          aria-describedby="button-addon2"
+          name="keyword"
+          id="search-input"
+        />
+      </div>
+    </form>
+  </div>
+
+  {% for movie in movies %}
+  <a href="{% url 'movie:detail' movie.pk %}" class="item">
+    <div class="poster_div shadow-lg">
+      <img src="/static/movie/poster/{{ movie.imdb_id }}.jpg" alt="" />
+      <div class="rating inline-flex items-center justify-cener">
+        <strong>{{ movie.get_score }}</strong>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-star ml-1"
+        >
+          <polygon
+            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+          />
+        </svg>
+      </div>
+      <p
+        class="whitespace-nowrap text-center text-ellipsis overflow-hidden mt-5 hover:text-white text-sm"
+        title="{{movie.name}}"
+      >
+        <span>{{ movie.name }}</span>
+      </p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<nav style="text-align: center">
+  <ul class="pagination">
+    {#previous page#} {% if page_obj.has_previous %}
+    <li>
+      <a href="{% url 'movie:tag' %}?p={{ page_obj.previous_page_number }}"
+        >Back</a
+      >
+    </li>
+    {% else %}
+    <li class="disabled"><a href="javascript:void(0);">Back</a></li>
+    {% endif %} {% if left_has_more %}
+    <li><a href="{% url 'movie:tag' %}?p=1">1</a></li>
+    <li><a href="javascript:void(0)">...</a></li>
+    {% endif %} {# 左边的page#} {% for left_page in left_pages %}
+    <li>
+      <a href="{% url 'movie:tag' %}?p={{ left_page }}">{{ left_page }}</a>
+    </li>
+    {% endfor %} {# 当前的page#}
+    <li class="active"><a href="javascript:void(0);">{{ current_page }}</a></li>
+
+    {# 右边的page#} {% for right_page in right_pages %}
+    <li>
+      <a href="{% url 'movie:tag' %}?p={{ right_page }}">{{ right_page }}</a>
+    </li>
+    {% endfor %} {% if right_has_more %}
+    <li><a href="javascript:void(0)">...</a></li>
+    <li>
+      <a href="{% url 'movie:tag' %}?p={{ paginator.num_pages }}"
+        >{{ paginator.num_pages }}</a
+      >
+    </li>
+    {% endif %} {#next page#} {% if page_obj.has_next %}
+    <li>
+      <a href="{% url 'movie:tag' %}?p={{ page_obj.next_page_number }}">Next</a>
+    </li>
+    {% else %}
+    <li class="disabled"><a href="javascript:void(0);">Next</a></li>
+    {% endif %}
+  </ul>
+</nav>
+<script>
+  $(function () {
+    let compositing = false;
+    $("#search-input").on("compositionstart", function () {
+      compositing = true;
+    });
+    $("#search-input").on("compositionend", function () {
+      compositing = false;
+    });
+    $("#search-input").on("keydown", function (e) {
+      if (compositing) {
+        return;
+      }
+      if (event.keyCode == 13) {
+        $("#search-input").closest("form").submit();
+      }
+    });
+  });
+</script>
+{% endblock %}

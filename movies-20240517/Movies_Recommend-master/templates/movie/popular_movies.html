@@ -1,0 +1,215 @@
+{% extends "movie/base.html" %}
+{% block content %}
+<div>
+    <style>
+        .item {
+            display: block;
+            float: left;
+            font-size: 15px;
+            text-align: center;
+            margin: 0 25px 10px 0;
+            width: 200px;
+        }
+
+        .item .poster_div {
+            height: 350px;
+            overflow: hidden;
+        }
+
+        /* 新添加的样式 */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+
+        /* 清除浮动 */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* 图片样式 */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    
+    {% comment %} <div class="container">
+        <div class="jumbotron">
+            <h2>Statistics</h2>
+            <p>Guest Count: {{ statistic.guest_count }}</p>
+            <p>Login Count: {{ statistic.login_count }}</p>
+            <p>Viewers Count: {{ statistic.viewers_count }}</p>
+            <p>Comments Count: {{ statistic.comment_count }}</p>
+
+        </div>
+    </div> {% endcomment %}
+<div
+  class="tableauPlaceholder"
+  id="viz1715865089421"
+  style="position: relative"
+>
+  <noscript
+    ><a href="#"
+      ><img
+        alt=" "
+        src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_17147457026710&#47;Dashboard1&#47;1_rss.png"
+        style="border: none" /></a></noscript
+  ><object class="tableauViz" style="display: none">
+    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+    <param name="embed_code_version" value="3" />
+    <param name="site_root" value="" />
+    <param name="name" value="Dashboard_17147457026710&#47;Dashboard1" />
+    <param name="tabs" value="yes" />
+    <param name="toolbar" value="yes" />
+    <param
+      name="static_image"
+      value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_17147457026710&#47;Dashboard1&#47;1.png"
+    />
+    <param name="animate_transition" value="yes" />
+    <param name="display_static_image" value="yes" />
+    <param name="display_spinner" value="yes" />
+    <param name="display_overlay" value="yes" />
+    <param name="display_count" value="yes" />
+    <param name="language" value="zh-CN" />
+  </object>
+</div>
+<script type="text/javascript">
+  var divElement = document.getElementById("viz1715865089421");
+  var vizElement = divElement.getElementsByTagName("object")[0];
+  if (divElement.offsetWidth > 800) {
+    vizElement.style.minWidth = "1000px";
+    vizElement.style.maxWidth = "100%";
+    vizElement.style.minHeight = "850px";
+    vizElement.style.maxHeight = divElement.offsetWidth * 0.75 + "px";
+  } else if (divElement.offsetWidth > 500) {
+    vizElement.style.minWidth = "1000px";
+    vizElement.style.maxWidth = "100%";
+    vizElement.style.minHeight = "850px";
+    vizElement.style.maxHeight = divElement.offsetWidth * 0.75 + "px";
+  } else {
+    vizElement.style.width = "100%";
+    vizElement.style.minHeight = "1700px";
+    vizElement.style.maxHeight = divElement.offsetWidth * 1.77 + "px";
+  }
+  var scriptElement = document.createElement("script");
+  scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+{% comment %} 
+<!-- 在这里添加统计图像 -->
+    <div class="container">
+        <div class="row clearfix">
+            <div class="column">
+<!--                <h2>统计图1</h2>-->
+                <img src="/static/img/统计图1.png" alt="Statistic 1">
+            </div>
+            <div class="column">
+<!--                <h2>统计图2</h2>-->
+                <img src="/static/img/统计图2.png" alt="Statistic 2">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="column">
+<!--                <h2>统计图3</h2>-->
+                <img src="/static/img/统计图3.png" alt="Statistic 3">
+            </div>
+            <div class="column">
+<!--                <h2>统计图4</h2>-->
+                <img src="/static/img/统计图4.png" alt="Statistic 4">
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="column">
+<!--                <h2>统计图5</h2>-->
+                <img src="/static/img/统计图5.png" alt="Statistic 5">
+            </div>
+            <div class="column">
+<!--                <h2>统计图6</h2>-->
+                <img src="/static/img/统计图6.png" alt="Statistic 6">
+            </div>
+        </div>
+    </div>
+    <!--展示电影图片用-->
+    <div >
+        <h2>Top20 Popular Films</h2>
+        <div class="flex flex-wrap gap-9 mt-4">
+            {% for movie in popular_movies %}
+            <a href="{% url 'movie:detail' movie.pk %}" class="poster">
+                <div class="poster_div">
+                    <img src="/static/movie/poster/{{ movie.imdb_id }}.jpg" alt="">
+                    <p class="whitespace-nowrap text-center text-ellipsis overflow-hidden mt-5 hover:text-white text-sm">{{ movie.name }}</p>
+                    <p>
+                        <p style="color:#e09015">Viewers：{{ movie.viewers_count }}</p>
+                    </p>
+                </div>
+            </a>
+        {% endfor %}
+       </div>
+    </div>
+
+    <!-- nav视图分页用 不用管-->
+    <nav style="text-align: center;">
+        <!-- Pagination Code -->
+    </nav>
+</div>
+<div>
+    <form
+      class="navbar-form navbar-left"
+      method="GET"
+      action="{% url 'movie:search' %}"
+    >
+      <div class="form-group">
+        <input
+          type="search"
+          name="keyword"
+          class="w-full pl-14 pr-7 outline-none bg-transparent py-3 placeholder-gray-500 text-white"
+          placeholder="keyword"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+      {% if movie_user %}
+      <li>
+        <!-- Split button -->
+        <div class="btn-group" style="margin-top: 10px">
+          {#
+          <ul class="dropdown-menu">
+            #} {#
+            <li><a href="{% url 'movie:recommend' %}">推荐列表</a></li>
+            #} {#
+            <li><a href="#">Another action</a></li>
+            #} {#
+            <li><a href="#">Something else here</a></li>
+            #}
+            <li role="separator" class="divider"></li>
+            <li>
+              <a href="{% url 'movie:info' %}" class="divider"
+                >My Profile</a
+              >
+            </li>
+            {#
+            <li role="separator" class="divider"></li>
+            #}
+            <li><a href="{% url 'movie:logout' %}">Logout</a></li>
+
+            {#
+          </ul>
+          #}
+        </div>
+      </li>
+      {% else %} {# 如果没有登录，则显示这两个链接#}
+      <li><a href="{% url 'movie:register' %}">Signup</a></li>
+      <li><a href="{% url 'movie:login' %}">Login</a></li>
+      {% endif %}
+    </ul>
+  </div> {% endcomment %}
+{% endblock %}

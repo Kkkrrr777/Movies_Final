@@ -1,0 +1,184 @@
+{% extends 'movie/layout.html' %} {% block content %}
+<style>
+  html {
+    height: 100%;
+  }
+  body {
+    background: url("/static/img/login-bg.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+  }
+  .my-profile-form input,
+  .my-profile-form select {
+    height: 76px;
+    line-height: 76px;
+    background-color: #777777 !important;
+    border-radius: 12px;
+    font-size: 24px;
+    color: white;
+  }
+  .my-profile-form select {
+    appearance: none;
+    background-image: url(/static/img/chevron-down.svg);
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+  }
+  .my-profile-form select:-ms-expand {
+    display: none;
+  }
+</style>
+<div class="flex h-screen justify-center overflow-auto">
+  <div class="mt-[82px]">
+    <div class="formBox" style="padding: 10px; width: 700px">
+      <h2 class="text-[48px] text-[#48C4EB] text-center font-bold">
+        My Profile
+      </h2>
+      <p class="text-[24px] mt-[42px]">
+        After submitting, you can get your Profile Recommendation
+      </p>
+
+      <div class="container mt-12">
+        <div class="col-md-12">
+          <form class="form-horizontal my-profile-form" href="" method="post">
+            <div class="form-group">
+              <label for="sex" class="col-sm-2 control-label"></label>
+              <div class="col-sm-8">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  value="{{ movie_user.name }}"
+                  readonly
+                />
+              </div>
+            </div>
+            {# age #}
+            <div class="form-group">
+              <label for="sex" class="col-sm-2 control-label"></label>
+              <div class="col-sm-8">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="age"
+                  name="age"
+                  placeholder="Age"
+                  defaultValue="{{ movie_user.age }}"
+                />
+              </div>
+            </div>
+            {#sex#}
+            <div class="form-group">
+              <label for="sex" class="col-sm-2 control-label"></label>
+              <div class="col-sm-8">
+                <select
+                  class="form-control"
+                  id="sex"
+                  name="sex"
+                  defaultValue="0"
+                >
+                  <option value="0">Male</option>
+                  <option value="1">Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              {% comment %} Marital Status {% endcomment %}
+              <label for="married" class="col-sm-2 control-label"></label>
+              <div class="col-sm-8">
+                <select class="form-control" id="married" name="married">
+                  <option value="0">Single</option>
+                  <option value="1">Married</option>
+                  <option value="2">Divorced</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              {% comment %} Employment Status {% endcomment %}
+              <label for="work" class="col-sm-2 control-label"></label>
+              <div class="col-sm-8">
+                <select class="form-control" id="work" name="work">
+                  <option value="0">Employed</option>
+                  <option value="1">Freelance</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              {% comment %} Occupation {% endcomment %}
+              <label for="type" class="col-sm-2 control-label"></label>
+              <div class="col-sm-8">
+                <select class="form-control" id="type" name="type">
+                  <option value="0">White Collar</option>
+                  <option value="1">Teacher</option>
+                  <option value="2">Blue Collar</option>
+                  <option value="3">Civil Servant</option>
+                  <option value="4">Sales</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              {% comment %} Region {% endcomment %}
+              <label for="address" class="col-sm-2 control-label"></label>
+              <div class="col-sm-8">
+                <select class="form-control" id="address" name="address">
+                  <option value="0">Shanghai</option>
+                  <option value="1">Yunnan</option>
+                  <option value="2">Neimeng</option>
+                  <option value="3">Beijing</option>
+                  <option value="4">Taiwan</option>
+                  <option value="5">Jilin</option>
+                  <option value="6">Sichuan</option>
+                  <option value="7">Tianjin</option>
+                  <option value="8">Ningxia</option>
+                  <option value="9">Anhui</option>
+                  <option value="10">Shandong</option>
+                  <option value="11">Shanxi</option>
+                  <option value="12">Guangdong</option>
+                  <option value="13">Guangxi</option>
+                  <option value="14">Xinjiang</option>
+                  <option value="15">Jiangsu</option>
+                  <option value="16">Jiangxi</option>
+                  <option value="17">Hebei</option>
+                  <option value="18">Henan</option>
+                  <option value="19">Zhejiang</option>
+                  <option value="20">Hainan</option>
+                  <option value="21">Hubei</option>
+                  <option value="22">Hunan</option>
+                  <option value="23">Macao</option>
+                  <option value="24">Gansu</option>
+                  <option value="25">Fujian</option>
+                  <option value="26">Xizang</option>
+                  <option value="27">Guizhou</option>
+                  <option value="28">Liaoning</option>
+                  <option value="29">Chongqing</option>
+                  <option value="30">Shaanxi</option>
+                  <option value="31">Qinghai</option>
+                  <option value="32">Hongkong</option>
+                  <option value="33">Heilongjiang</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="text-center my-12">
+                <button
+                  class="btn btn-lg btn-primary bg-[#48C4EB] hover:bg-[#48C4EB] hover:shadow-inner px-9 py-3 rounded-[24px] h-[60px]"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      {% for message in messages %} {% if message.tags == 'info' %}
+      <div class="alert alert-info" role="alert">{{ message }}</div>
+      {% endif %} {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

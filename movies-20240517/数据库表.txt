@@ -1,0 +1,17 @@
+movie  电影信息表
+
+genre 电影类别表
+
+movie_genre  电影与类别关联表
+
+movie_hot  热门电影（根据评论数最多）
+
+movie_rating 影片评论
+
+user 用户登录信息
+
+user_type 根据用户信息预测类别
+
+
+
+

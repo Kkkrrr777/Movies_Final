@@ -1,0 +1,86 @@
+{% extends 'movie/base.html' %} {% block content %}
+<style>
+  .poster {
+    display: block;
+    text-align: center;
+    width: 122px;
+  }
+  .poster:hover {
+    color: white !important;
+  }
+
+  .poster .poster_div {
+    overflow: hidden;
+    position: relative;
+  }
+  .poster_div img {
+    width: 122px;
+    height: 174px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .poster_div .rating {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #48c4ebb8;
+    color: white;
+    padding: 4px 10px;
+  }
+
+  .info {
+    max-width: 800px;
+    margin-top: 15px;
+    float: left;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+</style>
+<div class="text-center text-[24px] text-white">For You Recommendation</div>
+<h3 class="text-[24px] text-white my-9">
+  Using Collaborative Filtering Algorithm based on your Ratings
+</h3>
+<div class="container">
+  {% for message in messages %} {% if message.tags == 'info' %}
+  <div class="alert alert-success" role="alert">{{ message }}</div>
+  {% endif %} {% endfor %}
+</div>
+<div class="flex flex-wrap gap-9">
+  {% for movie in movies %}
+  <div class="poster">
+    <a href="{% url 'movie:detail' movie.pk %}" class="poster">
+      <div class="poster_div shadow-lg">
+        <img src="/static/movie/poster/{{ movie.imdb_id }}.jpg" alt="" />
+        <div class="rating inline-flex items-center justify-cener">
+          <strong>{{ movie.get_score }}</strong>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-star ml-1"
+          >
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+            />
+          </svg>
+        </div>
+        <p
+          class="whitespace-nowrap text-center text-ellipsis overflow-hidden mt-5 hover:text-white text-sm"
+          title="{{movie.name}}"
+        >
+          <span>{{ movie.name }}</span>
+        </p>
+      </div>
+    </a>
+  </div>
+
+  {% endfor %} {% endblock %}
+</div>

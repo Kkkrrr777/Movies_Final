@@ -1,0 +1,12 @@
+#!/bin/sh
+'''exec' "/Users/kww/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/b171e79a586b1a4307924df8a4374ce5/Message/MessageTemp/3978858a79693e6ad13627ed7b651448/File/Movies/Movies_Recommend-master/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from pip._internal import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
